@@ -1,2513 +1,2810 @@
 {
-  "settings": {
-    "organizationName": "さくら市立青葉小学校 PTA",
-    "displayFiscalYear": 2025
-  },
-  "gradeGroups": [
-    {
-      "id": "g1",
-      "name": "1年",
-      "kind": "grade",
-      "sortOrder": 1
-    },
-    {
-      "id": "g2",
-      "name": "2年",
-      "kind": "grade",
-      "sortOrder": 2
-    },
-    {
-      "id": "g3",
-      "name": "3年",
-      "kind": "grade",
-      "sortOrder": 3
-    },
-    {
-      "id": "g4",
-      "name": "4年",
-      "kind": "grade",
-      "sortOrder": 4
-    },
-    {
-      "id": "g5",
-      "name": "5年",
-      "kind": "grade",
-      "sortOrder": 5
-    },
-    {
-      "id": "g6",
-      "name": "6年",
-      "kind": "grade",
-      "sortOrder": 6
-    },
-    {
-      "id": "gSpecial",
-      "name": "特別学級",
-      "kind": "special",
-      "sortOrder": 7
-    }
-  ],
-  "classes": [
-    {
-      "id": "c11",
-      "gradeGroupId": "g1",
-      "name": "1組",
-      "sortOrder": 1
-    },
-    {
-      "id": "c12",
-      "gradeGroupId": "g1",
-      "name": "2組",
-      "sortOrder": 2
-    },
-    {
-      "id": "c13",
-      "gradeGroupId": "g1",
-      "name": "3組",
-      "sortOrder": 3
-    },
-    {
-      "id": "c14",
-      "gradeGroupId": "g1",
-      "name": "4組",
-      "sortOrder": 4
-    },
-    {
-      "id": "c21",
-      "gradeGroupId": "g2",
-      "name": "1組",
-      "sortOrder": 1
-    },
-    {
-      "id": "c22",
-      "gradeGroupId": "g2",
-      "name": "2組",
-      "sortOrder": 2
-    },
-    {
-      "id": "c23",
-      "gradeGroupId": "g2",
-      "name": "3組",
-      "sortOrder": 3
-    },
-    {
-      "id": "c24",
-      "gradeGroupId": "g2",
-      "name": "4組",
-      "sortOrder": 4
-    },
-    {
-      "id": "c31",
-      "gradeGroupId": "g3",
-      "name": "1組",
-      "sortOrder": 1
-    },
-    {
-      "id": "c32",
-      "gradeGroupId": "g3",
-      "name": "2組",
-      "sortOrder": 2
-    },
-    {
-      "id": "c33",
-      "gradeGroupId": "g3",
-      "name": "3組",
-      "sortOrder": 3
-    },
-    {
-      "id": "c34",
-      "gradeGroupId": "g3",
-      "name": "4組",
-      "sortOrder": 4
-    },
-    {
-      "id": "c41",
-      "gradeGroupId": "g4",
-      "name": "1組",
-      "sortOrder": 1
-    },
-    {
-      "id": "c42",
-      "gradeGroupId": "g4",
-      "name": "2組",
-      "sortOrder": 2
-    },
-    {
-      "id": "c43",
-      "gradeGroupId": "g4",
-      "name": "3組",
-      "sortOrder": 3
-    },
-    {
-      "id": "c44",
-      "gradeGroupId": "g4",
-      "name": "4組",
-      "sortOrder": 4
-    },
-    {
-      "id": "c45",
-      "gradeGroupId": "g4",
-      "name": "5組",
-      "sortOrder": 5
-    },
-    {
-      "id": "c51",
-      "gradeGroupId": "g5",
-      "name": "1組",
-      "sortOrder": 1
-    },
-    {
-      "id": "c52",
-      "gradeGroupId": "g5",
-      "name": "2組",
-      "sortOrder": 2
-    },
-    {
-      "id": "c53",
-      "gradeGroupId": "g5",
-      "name": "3組",
-      "sortOrder": 3
-    },
-    {
-      "id": "c54",
-      "gradeGroupId": "g5",
-      "name": "4組",
-      "sortOrder": 4
-    },
-    {
-      "id": "c55",
-      "gradeGroupId": "g5",
-      "name": "5組",
-      "sortOrder": 5
-    },
-    {
-      "id": "c61",
-      "gradeGroupId": "g6",
-      "name": "1組",
-      "sortOrder": 1
-    },
-    {
-      "id": "c62",
-      "gradeGroupId": "g6",
-      "name": "2組",
-      "sortOrder": 2
-    },
-    {
-      "id": "c63",
-      "gradeGroupId": "g6",
-      "name": "3組",
-      "sortOrder": 3
-    },
-    {
-      "id": "c64",
-      "gradeGroupId": "g6",
-      "name": "4組",
-      "sortOrder": 4
-    },
-    {
-      "id": "c65",
-      "gradeGroupId": "g6",
-      "name": "5組",
-      "sortOrder": 5
-    },
-    {
-      "id": "cs1",
-      "gradeGroupId": "gSpecial",
-      "name": "1組",
-      "sortOrder": 1
-    },
-    {
-      "id": "cs2",
-      "gradeGroupId": "gSpecial",
-      "name": "2組",
-      "sortOrder": 2
-    },
-    {
-      "id": "cs3",
-      "gradeGroupId": "gSpecial",
-      "name": "3組",
-      "sortOrder": 3
-    },
-    {
-      "id": "cs4",
-      "gradeGroupId": "gSpecial",
-      "name": "4組",
-      "sortOrder": 4
-    },
-    {
-      "id": "cs5",
-      "gradeGroupId": "gSpecial",
-      "name": "5組",
-      "sortOrder": 5
-    }
-  ],
-  "households": [
-    {
-      "id": "h1",
-      "guardianName": "田中 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": "LINE で連絡可"
-    },
-    {
-      "id": "h5",
-      "guardianName": "佐藤 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [
-        {
-          "fiscalYear": 2025,
-          "division": "PTA",
-          "role": "会計",
-          "note": "今年度担当"
-        }
-      ],
-      "householdMemo": ""
-    },
-    {
-      "id": "h7",
-      "guardianName": "鈴木 恵子",
-      "membershipStatus": "member",
-      "officerExempt": true,
-      "exemptReason": "前年度本部役員のため",
-      "officerHistory": [
-        {
-          "fiscalYear": 2024,
-          "division": "PTA",
-          "role": "本部役員（副会長）",
-          "note": ""
-        },
-        {
-          "fiscalYear": 2022,
-          "division": "育成会",
-          "role": "地区会長",
-          "note": "2年間担当"
-        }
-      ],
-      "householdMemo": ""
-    },
-    {
-      "id": "h9",
-      "guardianName": "高橋 誠",
-      "membershipStatus": "non_member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h11",
-      "guardianName": "伊藤 由美",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h14",
-      "guardianName": "渡辺 直樹",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h16",
-      "guardianName": "田中 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h18",
-      "guardianName": "佐藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h20",
-      "guardianName": "鈴木 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h22",
-      "guardianName": "高橋 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h24",
-      "guardianName": "伊藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h26",
-      "guardianName": "渡辺 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h28",
-      "guardianName": "山本 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h30",
-      "guardianName": "中村 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h32",
-      "guardianName": "小林 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h34",
-      "guardianName": "加藤 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h36",
-      "guardianName": "吉田 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h38",
-      "guardianName": "山田 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h40",
-      "guardianName": "松本 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h42",
-      "guardianName": "井上 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h44",
-      "guardianName": "木村 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h46",
-      "guardianName": "田中 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h48",
-      "guardianName": "佐藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h50",
-      "guardianName": "鈴木 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h52",
-      "guardianName": "高橋 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h54",
-      "guardianName": "伊藤 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h56",
-      "guardianName": "渡辺 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h58",
-      "guardianName": "山本 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h60",
-      "guardianName": "中村 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h62",
-      "guardianName": "小林 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h64",
-      "guardianName": "加藤 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h66",
-      "guardianName": "吉田 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h68",
-      "guardianName": "山田 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h70",
-      "guardianName": "松本 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h72",
-      "guardianName": "井上 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h74",
-      "guardianName": "木村 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h76",
-      "guardianName": "田中 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h78",
-      "guardianName": "佐藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h80",
-      "guardianName": "鈴木 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h82",
-      "guardianName": "高橋 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h84",
-      "guardianName": "伊藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h86",
-      "guardianName": "渡辺 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h88",
-      "guardianName": "山本 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h90",
-      "guardianName": "中村 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h92",
-      "guardianName": "小林 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h94",
-      "guardianName": "加藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h96",
-      "guardianName": "吉田 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h98",
-      "guardianName": "山田 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h100",
-      "guardianName": "松本 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h102",
-      "guardianName": "井上 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h104",
-      "guardianName": "木村 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h106",
-      "guardianName": "田中 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h108",
-      "guardianName": "佐藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h110",
-      "guardianName": "鈴木 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h112",
-      "guardianName": "高橋 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h114",
-      "guardianName": "伊藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h116",
-      "guardianName": "渡辺 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h118",
-      "guardianName": "山本 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h120",
-      "guardianName": "中村 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h122",
-      "guardianName": "小林 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h124",
-      "guardianName": "加藤 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h126",
-      "guardianName": "吉田 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h128",
-      "guardianName": "山田 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h130",
-      "guardianName": "松本 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h132",
-      "guardianName": "井上 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h134",
-      "guardianName": "木村 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h136",
-      "guardianName": "田中 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h138",
-      "guardianName": "佐藤 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h140",
-      "guardianName": "鈴木 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h142",
-      "guardianName": "高橋 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h144",
-      "guardianName": "伊藤 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h146",
-      "guardianName": "渡辺 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h148",
-      "guardianName": "山本 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h150",
-      "guardianName": "中村 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h152",
-      "guardianName": "小林 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h154",
-      "guardianName": "加藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h156",
-      "guardianName": "吉田 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h158",
-      "guardianName": "山田 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h160",
-      "guardianName": "松本 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h162",
-      "guardianName": "井上 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h164",
-      "guardianName": "木村 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h166",
-      "guardianName": "田中 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h168",
-      "guardianName": "佐藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h170",
-      "guardianName": "鈴木 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h172",
-      "guardianName": "高橋 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h174",
-      "guardianName": "伊藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h176",
-      "guardianName": "渡辺 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h178",
-      "guardianName": "山本 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h180",
-      "guardianName": "中村 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h182",
-      "guardianName": "小林 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h184",
-      "guardianName": "加藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h186",
-      "guardianName": "吉田 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h188",
-      "guardianName": "山田 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h190",
-      "guardianName": "松本 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h192",
-      "guardianName": "井上 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h194",
-      "guardianName": "木村 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h196",
-      "guardianName": "田中 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h198",
-      "guardianName": "佐藤 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h200",
-      "guardianName": "鈴木 一郎",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h202",
-      "guardianName": "高橋 花子",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h204",
-      "guardianName": "伊藤 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h206",
-      "guardianName": "渡辺 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h208",
-      "guardianName": "山本 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h210",
-      "guardianName": "中村 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h212",
-      "guardianName": "小林 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h214",
-      "guardianName": "加藤 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h216",
-      "guardianName": "吉田 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h218",
-      "guardianName": "山田 美香",
-      "membershipStatus": "member",
-      "officerExempt": true,
-      "exemptReason": "家庭の事情",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h220",
-      "guardianName": "松本 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h222",
-      "guardianName": "井上 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h224",
-      "guardianName": "木村 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h226",
-      "guardianName": "田中 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h228",
-      "guardianName": "佐藤 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h230",
-      "guardianName": "鈴木 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h232",
-      "guardianName": "高橋 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h234",
-      "guardianName": "伊藤 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h236",
-      "guardianName": "渡辺 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h238",
-      "guardianName": "山本 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h240",
-      "guardianName": "中村 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h242",
-      "guardianName": "小林 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h244",
-      "guardianName": "加藤 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h246",
-      "guardianName": "吉田 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h248",
-      "guardianName": "山田 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h250",
-      "guardianName": "松本 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h252",
-      "guardianName": "井上 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h254",
-      "guardianName": "木村 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h256",
-      "guardianName": "田中 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h258",
-      "guardianName": "佐藤 健",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h260",
-      "guardianName": "鈴木 美香",
-      "membershipStatus": "member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    },
-    {
-      "id": "h262",
-      "guardianName": "高橋 健",
-      "membershipStatus": "non_member",
-      "officerExempt": false,
-      "exemptReason": "",
-      "officerHistory": [],
-      "householdMemo": ""
-    }
-  ],
-  "children": [
-    {
-      "id": "ch2",
-      "householdId": "h1",
-      "name": "田中 太郎",
-      "studentKana": "タナカ タロウ",
-      "grade": 4,
-      "classId": "c42"
-    },
-    {
-      "id": "ch3",
-      "householdId": "h1",
-      "name": "田中 次郎",
-      "studentKana": "タナカ ジロウ",
-      "grade": 1,
-      "classId": "c11"
-    },
-    {
-      "id": "ch4",
-      "householdId": "h1",
-      "name": "田中 三郎",
-      "studentKana": "タナカ サブロウ",
-      "grade": 1,
-      "classId": "c12"
-    },
-    {
-      "id": "ch6",
-      "householdId": "h5",
-      "name": "佐藤 美咲",
-      "studentKana": "サトウ ミサキ",
-      "grade": 3,
-      "classId": "c31"
-    },
-    {
-      "id": "ch8",
-      "householdId": "h7",
-      "name": "鈴木 健太",
-      "studentKana": "スズキ ケンタ",
-      "grade": 2,
-      "classId": "c21"
-    },
-    {
-      "id": "ch10",
-      "householdId": "h9",
-      "name": "高橋 翔太",
-      "studentKana": "タカハシ ショウタ",
-      "grade": 5,
-      "classId": "c53"
-    },
-    {
-      "id": "ch12",
-      "householdId": "h11",
-      "name": "伊藤 蓮",
-      "studentKana": "イトウ レン",
-      "grade": 2,
-      "classId": "c23"
-    },
-    {
-      "id": "ch13",
-      "householdId": "h11",
-      "name": "伊藤 葵",
-      "studentKana": "イトウ アオイ",
-      "grade": 2,
-      "classId": "c24"
-    },
-    {
-      "id": "ch15",
-      "householdId": "h14",
-      "name": "渡辺 悠斗",
-      "studentKana": "ワタナベ ユウト",
-      "grade": 3,
-      "classId": "cs1",
-      "exchangeClass": "3年2組（交流）"
-    },
-    {
-      "id": "ch17",
-      "householdId": "h16",
-      "name": "田中 太郎",
-      "studentKana": "タナカ タロウ",
-      "grade": 1,
-      "classId": "c11"
-    },
-    {
-      "id": "ch19",
-      "householdId": "h18",
-      "name": "佐藤 花子",
-      "studentKana": "サトウ ハナコ",
-      "grade": 1,
-      "classId": "c11"
-    },
-    {
-      "id": "ch21",
-      "householdId": "h20",
-      "name": "鈴木 太郎",
-      "studentKana": "スズキ タロウ",
-      "grade": 1,
-      "classId": "c11"
-    },
-    {
-      "id": "ch23",
-      "householdId": "h22",
-      "name": "高橋 花子",
-      "studentKana": "タカハシ ハナコ",
-      "grade": 1,
-      "classId": "c11"
-    },
-    {
-      "id": "ch25",
-      "householdId": "h24",
-      "name": "伊藤 花子",
-      "studentKana": "イトウ ハナコ",
-      "grade": 1,
-      "classId": "c12"
-    },
-    {
-      "id": "ch27",
-      "householdId": "h26",
-      "name": "渡辺 太郎",
-      "studentKana": "ワタナベ タロウ",
-      "grade": 1,
-      "classId": "c12"
-    },
-    {
-      "id": "ch29",
-      "householdId": "h28",
-      "name": "山本 花子",
-      "studentKana": "ヤマモト ハナコ",
-      "grade": 1,
-      "classId": "c12"
-    },
-    {
-      "id": "ch31",
-      "householdId": "h30",
-      "name": "中村 太郎",
-      "studentKana": "ナカムラ タロウ",
-      "grade": 1,
-      "classId": "c13"
-    },
-    {
-      "id": "ch33",
-      "householdId": "h32",
-      "name": "小林 花子",
-      "studentKana": "コバヤシ ハナコ",
-      "grade": 1,
-      "classId": "c13"
-    },
-    {
-      "id": "ch35",
-      "householdId": "h34",
-      "name": "加藤 太郎",
-      "studentKana": "カトウ タロウ",
-      "grade": 1,
-      "classId": "c13"
-    },
-    {
-      "id": "ch37",
-      "householdId": "h36",
-      "name": "吉田 花子",
-      "studentKana": "ヨシダ ハナコ",
-      "grade": 1,
-      "classId": "c13"
-    },
-    {
-      "id": "ch39",
-      "householdId": "h38",
-      "name": "山田 花子",
-      "studentKana": "ヤマダ ハナコ",
-      "grade": 1,
-      "classId": "c14"
-    },
-    {
-      "id": "ch41",
-      "householdId": "h40",
-      "name": "松本 太郎",
-      "studentKana": "マツモト タロウ",
-      "grade": 1,
-      "classId": "c14"
-    },
-    {
-      "id": "ch43",
-      "householdId": "h42",
-      "name": "井上 花子",
-      "studentKana": "イノウエ ハナコ",
-      "grade": 1,
-      "classId": "c14"
-    },
-    {
-      "id": "ch45",
-      "householdId": "h44",
-      "name": "木村 花子",
-      "studentKana": "キムラ ハナコ",
-      "grade": 2,
-      "classId": "c21"
-    },
-    {
-      "id": "ch47",
-      "householdId": "h46",
-      "name": "田中 健太",
-      "studentKana": "タナカ ケンタ",
-      "grade": 2,
-      "classId": "c21"
-    },
-    {
-      "id": "ch49",
-      "householdId": "h48",
-      "name": "佐藤 美咲",
-      "studentKana": "サトウ ミサキ",
-      "grade": 2,
-      "classId": "c21"
-    },
-    {
-      "id": "ch51",
-      "householdId": "h50",
-      "name": "鈴木 健太",
-      "studentKana": "スズキ ケンタ",
-      "grade": 2,
-      "classId": "c22"
-    },
-    {
-      "id": "ch53",
-      "householdId": "h52",
-      "name": "高橋 美咲",
-      "studentKana": "タカハシ ミサキ",
-      "grade": 2,
-      "classId": "c22"
-    },
-    {
-      "id": "ch55",
-      "householdId": "h54",
-      "name": "伊藤 健太",
-      "studentKana": "イトウ ケンタ",
-      "grade": 2,
-      "classId": "c22"
-    },
-    {
-      "id": "ch57",
-      "householdId": "h56",
-      "name": "渡辺 美咲",
-      "studentKana": "ワタナベ ミサキ",
-      "grade": 2,
-      "classId": "c22"
-    },
-    {
-      "id": "ch59",
-      "householdId": "h58",
-      "name": "山本 美咲",
-      "studentKana": "ヤマモト ミサキ",
-      "grade": 2,
-      "classId": "c23"
-    },
-    {
-      "id": "ch61",
-      "householdId": "h60",
-      "name": "中村 健太",
-      "studentKana": "ナカムラ ケンタ",
-      "grade": 2,
-      "classId": "c23"
-    },
-    {
-      "id": "ch63",
-      "householdId": "h62",
-      "name": "小林 美咲",
-      "studentKana": "コバヤシ ミサキ",
-      "grade": 2,
-      "classId": "c23"
-    },
-    {
-      "id": "ch65",
-      "householdId": "h64",
-      "name": "加藤 健太",
-      "studentKana": "カトウ ケンタ",
-      "grade": 2,
-      "classId": "c24"
-    },
-    {
-      "id": "ch67",
-      "householdId": "h66",
-      "name": "吉田 美咲",
-      "studentKana": "ヨシダ ミサキ",
-      "grade": 2,
-      "classId": "c24"
-    },
-    {
-      "id": "ch69",
-      "householdId": "h68",
-      "name": "山田 健太",
-      "studentKana": "ヤマダ ケンタ",
-      "grade": 2,
-      "classId": "c24"
-    },
-    {
-      "id": "ch71",
-      "householdId": "h70",
-      "name": "松本 美咲",
-      "studentKana": "マツモト ミサキ",
-      "grade": 2,
-      "classId": "c24"
-    },
-    {
-      "id": "ch73",
-      "householdId": "h72",
-      "name": "井上 健太",
-      "studentKana": "イノウエ ケンタ",
-      "grade": 3,
-      "classId": "c31"
-    },
-    {
-      "id": "ch75",
-      "householdId": "h74",
-      "name": "木村 美咲",
-      "studentKana": "キムラ ミサキ",
-      "grade": 3,
-      "classId": "c31"
-    },
-    {
-      "id": "ch77",
-      "householdId": "h76",
-      "name": "田中 翔太",
-      "studentKana": "タナカ ショウタ",
-      "grade": 3,
-      "classId": "c31"
-    },
-    {
-      "id": "ch79",
-      "householdId": "h78",
-      "name": "佐藤 結衣",
-      "studentKana": "サトウ ユイ",
-      "grade": 3,
-      "classId": "c31"
-    },
-    {
-      "id": "ch81",
-      "householdId": "h80",
-      "name": "鈴木 結衣",
-      "studentKana": "スズキ ユイ",
-      "grade": 3,
-      "classId": "c32"
-    },
-    {
-      "id": "ch83",
-      "householdId": "h82",
-      "name": "高橋 翔太",
-      "studentKana": "タカハシ ショウタ",
-      "grade": 3,
-      "classId": "c32"
-    },
-    {
-      "id": "ch85",
-      "householdId": "h84",
-      "name": "伊藤 結衣",
-      "studentKana": "イトウ ユイ",
-      "grade": 3,
-      "classId": "c32"
-    },
-    {
-      "id": "ch87",
-      "householdId": "h86",
-      "name": "渡辺 翔太",
-      "studentKana": "ワタナベ ショウタ",
-      "grade": 3,
-      "classId": "c33"
-    },
-    {
-      "id": "ch89",
-      "householdId": "h88",
-      "name": "山本 結衣",
-      "studentKana": "ヤマモト ユイ",
-      "grade": 3,
-      "classId": "c33"
-    },
-    {
-      "id": "ch91",
-      "householdId": "h90",
-      "name": "中村 翔太",
-      "studentKana": "ナカムラ ショウタ",
-      "grade": 3,
-      "classId": "c33"
-    },
-    {
-      "id": "ch93",
-      "householdId": "h92",
-      "name": "小林 結衣",
-      "studentKana": "コバヤシ ユイ",
-      "grade": 3,
-      "classId": "c33"
-    },
-    {
-      "id": "ch95",
-      "householdId": "h94",
-      "name": "加藤 結衣",
-      "studentKana": "カトウ ユイ",
-      "grade": 3,
-      "classId": "c34"
-    },
-    {
-      "id": "ch97",
-      "householdId": "h96",
-      "name": "吉田 翔太",
-      "studentKana": "ヨシダ ショウタ",
-      "grade": 3,
-      "classId": "c34"
-    },
-    {
-      "id": "ch99",
-      "householdId": "h98",
-      "name": "山田 結衣",
-      "studentKana": "ヤマダ ユイ",
-      "grade": 3,
-      "classId": "c34"
-    },
-    {
-      "id": "ch101",
-      "householdId": "h100",
-      "name": "松本 結衣",
-      "studentKana": "マツモト ユイ",
-      "grade": 4,
-      "classId": "c41"
-    },
-    {
-      "id": "ch103",
-      "householdId": "h102",
-      "name": "井上 翔太",
-      "studentKana": "イノウエ ショウタ",
-      "grade": 4,
-      "classId": "c41"
-    },
-    {
-      "id": "ch105",
-      "householdId": "h104",
-      "name": "木村 結衣",
-      "studentKana": "キムラ ユイ",
-      "grade": 4,
-      "classId": "c41"
-    },
-    {
-      "id": "ch107",
-      "householdId": "h106",
-      "name": "田中 大輔",
-      "studentKana": "タナカ ダイスケ",
-      "grade": 4,
-      "classId": "c42"
-    },
-    {
-      "id": "ch109",
-      "householdId": "h108",
-      "name": "佐藤 さくら",
-      "studentKana": "サトウ サクラ",
-      "grade": 4,
-      "classId": "c42"
-    },
-    {
-      "id": "ch111",
-      "householdId": "h110",
-      "name": "鈴木 大輔",
-      "studentKana": "スズキ ダイスケ",
-      "grade": 4,
-      "classId": "c42"
-    },
-    {
-      "id": "ch113",
-      "householdId": "h112",
-      "name": "高橋 さくら",
-      "studentKana": "タカハシ サクラ",
-      "grade": 4,
-      "classId": "c42"
-    },
-    {
-      "id": "ch115",
-      "householdId": "h114",
-      "name": "伊藤 さくら",
-      "studentKana": "イトウ サクラ",
-      "grade": 4,
-      "classId": "c43"
-    },
-    {
-      "id": "ch117",
-      "householdId": "h116",
-      "name": "渡辺 大輔",
-      "studentKana": "ワタナベ ダイスケ",
-      "grade": 4,
-      "classId": "c43"
-    },
-    {
-      "id": "ch119",
-      "householdId": "h118",
-      "name": "山本 さくら",
-      "studentKana": "ヤマモト サクラ",
-      "grade": 4,
-      "classId": "c43"
-    },
-    {
-      "id": "ch121",
-      "householdId": "h120",
-      "name": "中村 大輔",
-      "studentKana": "ナカムラ ダイスケ",
-      "grade": 4,
-      "classId": "c44"
-    },
-    {
-      "id": "ch123",
-      "householdId": "h122",
-      "name": "小林 さくら",
-      "studentKana": "コバヤシ サクラ",
-      "grade": 4,
-      "classId": "c44"
-    },
-    {
-      "id": "ch125",
-      "householdId": "h124",
-      "name": "加藤 大輔",
-      "studentKana": "カトウ ダイスケ",
-      "grade": 4,
-      "classId": "c44"
-    },
-    {
-      "id": "ch127",
-      "householdId": "h126",
-      "name": "吉田 さくら",
-      "studentKana": "ヨシダ サクラ",
-      "grade": 4,
-      "classId": "c44"
-    },
-    {
-      "id": "ch129",
-      "householdId": "h128",
-      "name": "山田 さくら",
-      "studentKana": "ヤマダ サクラ",
-      "grade": 4,
-      "classId": "c45"
-    },
-    {
-      "id": "ch131",
-      "householdId": "h130",
-      "name": "松本 大輔",
-      "studentKana": "マツモト ダイスケ",
-      "grade": 4,
-      "classId": "c45"
-    },
-    {
-      "id": "ch133",
-      "householdId": "h132",
-      "name": "井上 さくら",
-      "studentKana": "イノウエ サクラ",
-      "grade": 4,
-      "classId": "c45"
-    },
-    {
-      "id": "ch135",
-      "householdId": "h134",
-      "name": "木村 大輔",
-      "studentKana": "キムラ ダイスケ",
-      "grade": 5,
-      "classId": "c51"
-    },
-    {
-      "id": "ch137",
-      "householdId": "h136",
-      "name": "田中 陽菜",
-      "studentKana": "タナカ ヒナ",
-      "grade": 5,
-      "classId": "c51"
-    },
-    {
-      "id": "ch139",
-      "householdId": "h138",
-      "name": "佐藤 蓮",
-      "studentKana": "サトウ レン",
-      "grade": 5,
-      "classId": "c51"
-    },
-    {
-      "id": "ch141",
-      "householdId": "h140",
-      "name": "鈴木 陽菜",
-      "studentKana": "スズキ ヒナ",
-      "grade": 5,
-      "classId": "c51"
-    },
-    {
-      "id": "ch143",
-      "householdId": "h142",
-      "name": "高橋 陽菜",
-      "studentKana": "タカハシ ヒナ",
-      "grade": 5,
-      "classId": "c52"
-    },
-    {
-      "id": "ch145",
-      "householdId": "h144",
-      "name": "伊藤 蓮",
-      "studentKana": "イトウ レン",
-      "grade": 5,
-      "classId": "c52"
-    },
-    {
-      "id": "ch147",
-      "householdId": "h146",
-      "name": "渡辺 陽菜",
-      "studentKana": "ワタナベ ヒナ",
-      "grade": 5,
-      "classId": "c52"
-    },
-    {
-      "id": "ch149",
-      "householdId": "h148",
-      "name": "山本 蓮",
-      "studentKana": "ヤマモト レン",
-      "grade": 5,
-      "classId": "c53"
-    },
-    {
-      "id": "ch151",
-      "householdId": "h150",
-      "name": "中村 陽菜",
-      "studentKana": "ナカムラ ヒナ",
-      "grade": 5,
-      "classId": "c53"
-    },
-    {
-      "id": "ch153",
-      "householdId": "h152",
-      "name": "小林 蓮",
-      "studentKana": "コバヤシ レン",
-      "grade": 5,
-      "classId": "c53"
-    },
-    {
-      "id": "ch155",
-      "householdId": "h154",
-      "name": "加藤 陽菜",
-      "studentKana": "カトウ ヒナ",
-      "grade": 5,
-      "classId": "c53"
-    },
-    {
-      "id": "ch157",
-      "householdId": "h156",
-      "name": "吉田 陽菜",
-      "studentKana": "ヨシダ ヒナ",
-      "grade": 5,
-      "classId": "c54"
-    },
-    {
-      "id": "ch159",
-      "householdId": "h158",
-      "name": "山田 蓮",
-      "studentKana": "ヤマダ レン",
-      "grade": 5,
-      "classId": "c54"
-    },
-    {
-      "id": "ch161",
-      "householdId": "h160",
-      "name": "松本 陽菜",
-      "studentKana": "マツモト ヒナ",
-      "grade": 5,
-      "classId": "c54"
-    },
-    {
-      "id": "ch163",
-      "householdId": "h162",
-      "name": "井上 蓮",
-      "studentKana": "イノウエ レン",
-      "grade": 5,
-      "classId": "c55"
-    },
-    {
-      "id": "ch165",
-      "householdId": "h164",
-      "name": "木村 陽菜",
-      "studentKana": "キムラ ヒナ",
-      "grade": 5,
-      "classId": "c55"
-    },
-    {
-      "id": "ch167",
-      "householdId": "h166",
-      "name": "田中 悠斗",
-      "studentKana": "タナカ ユウト",
-      "grade": 5,
-      "classId": "c55"
-    },
-    {
-      "id": "ch169",
-      "householdId": "h168",
-      "name": "佐藤 凛",
-      "studentKana": "サトウ リン",
-      "grade": 5,
-      "classId": "c55"
-    },
-    {
-      "id": "ch171",
-      "householdId": "h170",
-      "name": "鈴木 凛",
-      "studentKana": "スズキ リン",
-      "grade": 6,
-      "classId": "c61"
-    },
-    {
-      "id": "ch173",
-      "householdId": "h172",
-      "name": "高橋 悠斗",
-      "studentKana": "タカハシ ユウト",
-      "grade": 6,
-      "classId": "c61"
-    },
-    {
-      "id": "ch175",
-      "householdId": "h174",
-      "name": "伊藤 凛",
-      "studentKana": "イトウ リン",
-      "grade": 6,
-      "classId": "c61"
-    },
-    {
-      "id": "ch177",
-      "householdId": "h176",
-      "name": "渡辺 悠斗",
-      "studentKana": "ワタナベ ユウト",
-      "grade": 6,
-      "classId": "c62"
-    },
-    {
-      "id": "ch179",
-      "householdId": "h178",
-      "name": "山本 凛",
-      "studentKana": "ヤマモト リン",
-      "grade": 6,
-      "classId": "c62"
-    },
-    {
-      "id": "ch181",
-      "householdId": "h180",
-      "name": "中村 悠斗",
-      "studentKana": "ナカムラ ユウト",
-      "grade": 6,
-      "classId": "c62"
-    },
-    {
-      "id": "ch183",
-      "householdId": "h182",
-      "name": "小林 凛",
-      "studentKana": "コバヤシ リン",
-      "grade": 6,
-      "classId": "c62"
-    },
-    {
-      "id": "ch185",
-      "householdId": "h184",
-      "name": "加藤 凛",
-      "studentKana": "カトウ リン",
-      "grade": 6,
-      "classId": "c63"
-    },
-    {
-      "id": "ch187",
-      "householdId": "h186",
-      "name": "吉田 悠斗",
-      "studentKana": "ヨシダ ユウト",
-      "grade": 6,
-      "classId": "c63"
-    },
-    {
-      "id": "ch189",
-      "householdId": "h188",
-      "name": "山田 凛",
-      "studentKana": "ヤマダ リン",
-      "grade": 6,
-      "classId": "c63"
-    },
-    {
-      "id": "ch191",
-      "householdId": "h190",
-      "name": "松本 悠斗",
-      "studentKana": "マツモト ユウト",
-      "grade": 6,
-      "classId": "c64"
-    },
-    {
-      "id": "ch193",
-      "householdId": "h192",
-      "name": "井上 凛",
-      "studentKana": "イノウエ リン",
-      "grade": 6,
-      "classId": "c64"
-    },
-    {
-      "id": "ch195",
-      "householdId": "h194",
-      "name": "木村 悠斗",
-      "studentKana": "キムラ ユウト",
-      "grade": 6,
-      "classId": "c64"
-    },
-    {
-      "id": "ch197",
-      "householdId": "h196",
-      "name": "田中 葵",
-      "studentKana": "タナカ アオイ",
-      "grade": 6,
-      "classId": "c64"
-    },
-    {
-      "id": "ch199",
-      "householdId": "h198",
-      "name": "佐藤 葵",
-      "studentKana": "サトウ アオイ",
-      "grade": 6,
-      "classId": "c65"
-    },
-    {
-      "id": "ch201",
-      "householdId": "h200",
-      "name": "鈴木 陽向",
-      "studentKana": "スズキ ヒナタ",
-      "grade": 6,
-      "classId": "c65"
-    },
-    {
-      "id": "ch203",
-      "householdId": "h202",
-      "name": "高橋 葵",
-      "studentKana": "タカハシ アオイ",
-      "grade": 6,
-      "classId": "c65"
-    },
-    {
-      "id": "ch205",
-      "householdId": "h204",
-      "name": "伊藤 葵",
-      "studentKana": "イトウ アオイ",
-      "grade": 1,
-      "classId": "cs1",
-      "exchangeClass": "1年1組（交流）"
-    },
-    {
-      "id": "ch207",
-      "householdId": "h206",
-      "name": "渡辺 陽向",
-      "studentKana": "ワタナベ ヒナタ",
-      "grade": 2,
-      "classId": "cs1"
-    },
-    {
-      "id": "ch209",
-      "householdId": "h208",
-      "name": "山本 葵",
-      "studentKana": "ヤマモト アオイ",
-      "grade": 3,
-      "classId": "cs1"
-    },
-    {
-      "id": "ch211",
-      "householdId": "h210",
-      "name": "中村 陽向",
-      "studentKana": "ナカムラ ヒナタ",
-      "grade": 4,
-      "classId": "cs1",
-      "exchangeClass": "4年1組（交流）"
-    },
-    {
-      "id": "ch213",
-      "householdId": "h212",
-      "name": "小林 葵",
-      "studentKana": "コバヤシ アオイ",
-      "grade": 5,
-      "classId": "cs1"
-    },
-    {
-      "id": "ch215",
-      "householdId": "h214",
-      "name": "加藤 陽向",
-      "studentKana": "カトウ ヒナタ",
-      "grade": 6,
-      "classId": "cs1"
-    },
-    {
-      "id": "ch217",
-      "householdId": "h216",
-      "name": "吉田 陽向",
-      "studentKana": "ヨシダ ヒナタ",
-      "grade": 2,
-      "classId": "cs2",
-      "exchangeClass": "2年2組（交流）"
-    },
-    {
-      "id": "ch219",
-      "householdId": "h218",
-      "name": "山田 葵",
-      "studentKana": "ヤマダ アオイ",
-      "grade": 3,
-      "classId": "cs2"
-    },
-    {
-      "id": "ch221",
-      "householdId": "h220",
-      "name": "松本 陽向",
-      "studentKana": "マツモト ヒナタ",
-      "grade": 4,
-      "classId": "cs2"
-    },
-    {
-      "id": "ch223",
-      "householdId": "h222",
-      "name": "井上 葵",
-      "studentKana": "イノウエ アオイ",
-      "grade": 5,
-      "classId": "cs2",
-      "exchangeClass": "5年2組（交流）"
-    },
-    {
-      "id": "ch225",
-      "householdId": "h224",
-      "name": "木村 陽向",
-      "studentKana": "キムラ ヒナタ",
-      "grade": 6,
-      "classId": "cs2"
-    },
-    {
-      "id": "ch227",
-      "householdId": "h226",
-      "name": "田中 心春",
-      "studentKana": "タナカ コハル",
-      "grade": 1,
-      "classId": "cs2"
-    },
-    {
-      "id": "ch229",
-      "householdId": "h228",
-      "name": "佐藤 心春",
-      "studentKana": "サトウ コハル",
-      "grade": 3,
-      "classId": "cs3",
-      "exchangeClass": "3年3組（交流）"
-    },
-    {
-      "id": "ch231",
-      "householdId": "h230",
-      "name": "鈴木 颯太",
-      "studentKana": "スズキ ソウタ",
-      "grade": 4,
-      "classId": "cs3"
-    },
-    {
-      "id": "ch233",
-      "householdId": "h232",
-      "name": "高橋 心春",
-      "studentKana": "タカハシ コハル",
-      "grade": 5,
-      "classId": "cs3"
-    },
-    {
-      "id": "ch235",
-      "householdId": "h234",
-      "name": "伊藤 颯太",
-      "studentKana": "イトウ ソウタ",
-      "grade": 6,
-      "classId": "cs3",
-      "exchangeClass": "6年3組（交流）"
-    },
-    {
-      "id": "ch237",
-      "householdId": "h236",
-      "name": "渡辺 心春",
-      "studentKana": "ワタナベ コハル",
-      "grade": 1,
-      "classId": "cs3"
-    },
-    {
-      "id": "ch239",
-      "householdId": "h238",
-      "name": "山本 颯太",
-      "studentKana": "ヤマモト ソウタ",
-      "grade": 2,
-      "classId": "cs3"
-    },
-    {
-      "id": "ch241",
-      "householdId": "h240",
-      "name": "中村 颯太",
-      "studentKana": "ナカムラ ソウタ",
-      "grade": 4,
-      "classId": "cs4",
-      "exchangeClass": "4年4組（交流）"
-    },
-    {
-      "id": "ch243",
-      "householdId": "h242",
-      "name": "小林 心春",
-      "studentKana": "コバヤシ コハル",
-      "grade": 5,
-      "classId": "cs4"
-    },
-    {
-      "id": "ch245",
-      "householdId": "h244",
-      "name": "加藤 颯太",
-      "studentKana": "カトウ ソウタ",
-      "grade": 6,
-      "classId": "cs4"
-    },
-    {
-      "id": "ch247",
-      "householdId": "h246",
-      "name": "吉田 心春",
-      "studentKana": "ヨシダ コハル",
-      "grade": 1,
-      "classId": "cs4",
-      "exchangeClass": "1年4組（交流）"
-    },
-    {
-      "id": "ch249",
-      "householdId": "h248",
-      "name": "山田 颯太",
-      "studentKana": "ヤマダ ソウタ",
-      "grade": 2,
-      "classId": "cs4"
-    },
-    {
-      "id": "ch251",
-      "householdId": "h250",
-      "name": "松本 心春",
-      "studentKana": "マツモト コハル",
-      "grade": 3,
-      "classId": "cs4"
-    },
-    {
-      "id": "ch253",
-      "householdId": "h252",
-      "name": "井上 心春",
-      "studentKana": "イノウエ コハル",
-      "grade": 5,
-      "classId": "cs5",
-      "exchangeClass": "5年5組（交流）"
-    },
-    {
-      "id": "ch255",
-      "householdId": "h254",
-      "name": "木村 颯太",
-      "studentKana": "キムラ ソウタ",
-      "grade": 6,
-      "classId": "cs5"
-    },
-    {
-      "id": "ch257",
-      "householdId": "h256",
-      "name": "田中 花子",
-      "studentKana": "タナカ ハナコ",
-      "grade": 1,
-      "classId": "cs5"
-    },
-    {
-      "id": "ch259",
-      "householdId": "h258",
-      "name": "佐藤 太郎",
-      "studentKana": "サトウ タロウ",
-      "grade": 2,
-      "classId": "cs5",
-      "exchangeClass": "2年5組（交流）"
-    },
-    {
-      "id": "ch261",
-      "householdId": "h260",
-      "name": "鈴木 花子",
-      "studentKana": "スズキ ハナコ",
-      "grade": 3,
-      "classId": "cs5"
-    },
-    {
-      "id": "ch263",
-      "householdId": "h262",
-      "name": "高橋 太郎",
-      "studentKana": "タカハシ タロウ",
-      "grade": 4,
-      "classId": "cs5"
-    }
-  ]
+    "settings":  {
+                     "organizationName":  "さくら市立青葉小学校 PTA",
+                     "displayFiscalYear":  2025
+                 },
+    "gradeGroups":  [
+                        {
+                            "id":  "g1",
+                            "name":  "1年",
+                            "kind":  "grade",
+                            "sortOrder":  1
+                        },
+                        {
+                            "id":  "g2",
+                            "name":  "2年",
+                            "kind":  "grade",
+                            "sortOrder":  2
+                        },
+                        {
+                            "id":  "g3",
+                            "name":  "3年",
+                            "kind":  "grade",
+                            "sortOrder":  3
+                        },
+                        {
+                            "id":  "g4",
+                            "name":  "4年",
+                            "kind":  "grade",
+                            "sortOrder":  4
+                        },
+                        {
+                            "id":  "g5",
+                            "name":  "5年",
+                            "kind":  "grade",
+                            "sortOrder":  5
+                        },
+                        {
+                            "id":  "g6",
+                            "name":  "6年",
+                            "kind":  "grade",
+                            "sortOrder":  6
+                        },
+                        {
+                            "id":  "gSpecial",
+                            "name":  "特別学級",
+                            "kind":  "special",
+                            "sortOrder":  7
+                        }
+                    ],
+    "classes":  [
+                    {
+                        "id":  "c11",
+                        "gradeGroupId":  "g1",
+                        "name":  "1組",
+                        "sortOrder":  1
+                    },
+                    {
+                        "id":  "c12",
+                        "gradeGroupId":  "g1",
+                        "name":  "2組",
+                        "sortOrder":  2
+                    },
+                    {
+                        "id":  "c13",
+                        "gradeGroupId":  "g1",
+                        "name":  "3組",
+                        "sortOrder":  3
+                    },
+                    {
+                        "id":  "c14",
+                        "gradeGroupId":  "g1",
+                        "name":  "4組",
+                        "sortOrder":  4
+                    },
+                    {
+                        "id":  "c21",
+                        "gradeGroupId":  "g2",
+                        "name":  "1組",
+                        "sortOrder":  1
+                    },
+                    {
+                        "id":  "c22",
+                        "gradeGroupId":  "g2",
+                        "name":  "2組",
+                        "sortOrder":  2
+                    },
+                    {
+                        "id":  "c23",
+                        "gradeGroupId":  "g2",
+                        "name":  "3組",
+                        "sortOrder":  3
+                    },
+                    {
+                        "id":  "c24",
+                        "gradeGroupId":  "g2",
+                        "name":  "4組",
+                        "sortOrder":  4
+                    },
+                    {
+                        "id":  "c31",
+                        "gradeGroupId":  "g3",
+                        "name":  "1組",
+                        "sortOrder":  1
+                    },
+                    {
+                        "id":  "c32",
+                        "gradeGroupId":  "g3",
+                        "name":  "2組",
+                        "sortOrder":  2
+                    },
+                    {
+                        "id":  "c33",
+                        "gradeGroupId":  "g3",
+                        "name":  "3組",
+                        "sortOrder":  3
+                    },
+                    {
+                        "id":  "c34",
+                        "gradeGroupId":  "g3",
+                        "name":  "4組",
+                        "sortOrder":  4
+                    },
+                    {
+                        "id":  "c41",
+                        "gradeGroupId":  "g4",
+                        "name":  "1組",
+                        "sortOrder":  1
+                    },
+                    {
+                        "id":  "c42",
+                        "gradeGroupId":  "g4",
+                        "name":  "2組",
+                        "sortOrder":  2
+                    },
+                    {
+                        "id":  "c43",
+                        "gradeGroupId":  "g4",
+                        "name":  "3組",
+                        "sortOrder":  3
+                    },
+                    {
+                        "id":  "c44",
+                        "gradeGroupId":  "g4",
+                        "name":  "4組",
+                        "sortOrder":  4
+                    },
+                    {
+                        "id":  "c45",
+                        "gradeGroupId":  "g4",
+                        "name":  "5組",
+                        "sortOrder":  5
+                    },
+                    {
+                        "id":  "c51",
+                        "gradeGroupId":  "g5",
+                        "name":  "1組",
+                        "sortOrder":  1
+                    },
+                    {
+                        "id":  "c52",
+                        "gradeGroupId":  "g5",
+                        "name":  "2組",
+                        "sortOrder":  2
+                    },
+                    {
+                        "id":  "c53",
+                        "gradeGroupId":  "g5",
+                        "name":  "3組",
+                        "sortOrder":  3
+                    },
+                    {
+                        "id":  "c54",
+                        "gradeGroupId":  "g5",
+                        "name":  "4組",
+                        "sortOrder":  4
+                    },
+                    {
+                        "id":  "c55",
+                        "gradeGroupId":  "g5",
+                        "name":  "5組",
+                        "sortOrder":  5
+                    },
+                    {
+                        "id":  "c61",
+                        "gradeGroupId":  "g6",
+                        "name":  "1組",
+                        "sortOrder":  1
+                    },
+                    {
+                        "id":  "c62",
+                        "gradeGroupId":  "g6",
+                        "name":  "2組",
+                        "sortOrder":  2
+                    },
+                    {
+                        "id":  "c63",
+                        "gradeGroupId":  "g6",
+                        "name":  "3組",
+                        "sortOrder":  3
+                    },
+                    {
+                        "id":  "c64",
+                        "gradeGroupId":  "g6",
+                        "name":  "4組",
+                        "sortOrder":  4
+                    },
+                    {
+                        "id":  "c65",
+                        "gradeGroupId":  "g6",
+                        "name":  "5組",
+                        "sortOrder":  5
+                    },
+                    {
+                        "id":  "cs1",
+                        "gradeGroupId":  "gSpecial",
+                        "name":  "1組",
+                        "sortOrder":  1
+                    },
+                    {
+                        "id":  "cs2",
+                        "gradeGroupId":  "gSpecial",
+                        "name":  "2組",
+                        "sortOrder":  2
+                    },
+                    {
+                        "id":  "cs3",
+                        "gradeGroupId":  "gSpecial",
+                        "name":  "3組",
+                        "sortOrder":  3
+                    },
+                    {
+                        "id":  "cs4",
+                        "gradeGroupId":  "gSpecial",
+                        "name":  "4組",
+                        "sortOrder":  4
+                    },
+                    {
+                        "id":  "cs5",
+                        "gradeGroupId":  "gSpecial",
+                        "name":  "5組",
+                        "sortOrder":  5
+                    }
+                ],
+    "households":  [
+                       {
+                           "id":  "h1",
+                           "guardianName":  "田中 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+                                                  {
+                                                      "fiscalYear":  2023,
+                                                      "division":  "PTA",
+                                                      "role":  "会長",
+                                                      "note":  ""
+                                                  }
+                                              ],
+                           "householdMemo":  "LINE で連絡可"
+                       },
+                       {
+                           "id":  "h5",
+                           "guardianName":  "佐藤 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+                                                  {
+                                                      "fiscalYear":  2025,
+                                                      "division":  "PTA",
+                                                      "role":  "会計",
+                                                      "note":  "今年度担当"
+                                                  }
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h7",
+                           "guardianName":  "鈴木 恵子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  true,
+                           "exemptReason":  "前年度本部役員のため",
+                           "officerHistory":  [
+                                                  {
+                                                      "fiscalYear":  2024,
+                                                      "division":  "PTA",
+                                                      "role":  "本部役員（副会長）",
+                                                      "note":  ""
+                                                  },
+                                                  {
+                                                      "fiscalYear":  2022,
+                                                      "division":  "育成会",
+                                                      "role":  "地区会長",
+                                                      "note":  "2年間担当"
+                                                  }
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h9",
+                           "guardianName":  "高橋 誠",
+                           "membershipStatus":  "non_member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h11",
+                           "guardianName":  "伊藤 由美",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h14",
+                           "guardianName":  "渡辺 直樹",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+                                                  {
+                                                      "fiscalYear":  2023,
+                                                      "division":  "PTA",
+                                                      "role":  "厚生委員長",
+                                                      "note":  ""
+                                                  }
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h16",
+                           "guardianName":  "田中 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h18",
+                           "guardianName":  "佐藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h20",
+                           "guardianName":  "鈴木 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h22",
+                           "guardianName":  "高橋 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h24",
+                           "guardianName":  "伊藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h26",
+                           "guardianName":  "渡辺 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h28",
+                           "guardianName":  "山本 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h30",
+                           "guardianName":  "中村 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h32",
+                           "guardianName":  "小林 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h34",
+                           "guardianName":  "加藤 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h36",
+                           "guardianName":  "吉田 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h38",
+                           "guardianName":  "山田 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h40",
+                           "guardianName":  "松本 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h42",
+                           "guardianName":  "井上 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h44",
+                           "guardianName":  "木村 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h46",
+                           "guardianName":  "田中 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h48",
+                           "guardianName":  "佐藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h50",
+                           "guardianName":  "鈴木 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+                                                  {
+                                                      "fiscalYear":  2022,
+                                                      "division":  "PTA",
+                                                      "role":  "広報委員長",
+                                                      "note":  ""
+                                                  }
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h52",
+                           "guardianName":  "高橋 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h54",
+                           "guardianName":  "伊藤 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h56",
+                           "guardianName":  "渡辺 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h58",
+                           "guardianName":  "山本 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h60",
+                           "guardianName":  "中村 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h62",
+                           "guardianName":  "小林 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h64",
+                           "guardianName":  "加藤 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h66",
+                           "guardianName":  "吉田 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h68",
+                           "guardianName":  "山田 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h70",
+                           "guardianName":  "松本 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h72",
+                           "guardianName":  "井上 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h74",
+                           "guardianName":  "木村 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h76",
+                           "guardianName":  "田中 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h78",
+                           "guardianName":  "佐藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h80",
+                           "guardianName":  "鈴木 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+                                                  {
+                                                      "fiscalYear":  2021,
+                                                      "division":  "育成会",
+                                                      "role":  "本部役員",
+                                                      "note":  "2年間担当"
+                                                  }
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h82",
+                           "guardianName":  "高橋 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h84",
+                           "guardianName":  "伊藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h86",
+                           "guardianName":  "渡辺 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h88",
+                           "guardianName":  "山本 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h90",
+                           "guardianName":  "中村 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h92",
+                           "guardianName":  "小林 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h94",
+                           "guardianName":  "加藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h96",
+                           "guardianName":  "吉田 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h98",
+                           "guardianName":  "山田 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h100",
+                           "guardianName":  "松本 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+                                                  {
+                                                      "fiscalYear":  2022,
+                                                      "division":  "PTA",
+                                                      "role":  "本部役員（会計）",
+                                                      "note":  ""
+                                                  }
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h102",
+                           "guardianName":  "井上 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h104",
+                           "guardianName":  "木村 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h106",
+                           "guardianName":  "田中 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h108",
+                           "guardianName":  "佐藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h110",
+                           "guardianName":  "鈴木 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h112",
+                           "guardianName":  "高橋 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h114",
+                           "guardianName":  "伊藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h116",
+                           "guardianName":  "渡辺 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h118",
+                           "guardianName":  "山本 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h120",
+                           "guardianName":  "中村 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h122",
+                           "guardianName":  "小林 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h124",
+                           "guardianName":  "加藤 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h126",
+                           "guardianName":  "吉田 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h128",
+                           "guardianName":  "山田 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h130",
+                           "guardianName":  "松本 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h132",
+                           "guardianName":  "井上 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h134",
+                           "guardianName":  "木村 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h136",
+                           "guardianName":  "田中 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h138",
+                           "guardianName":  "佐藤 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h140",
+                           "guardianName":  "鈴木 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h142",
+                           "guardianName":  "高橋 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+                                                  {
+                                                      "fiscalYear":  2023,
+                                                      "division":  "育成会",
+                                                      "role":  "地区会長",
+                                                      "note":  ""
+                                                  }
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h144",
+                           "guardianName":  "伊藤 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h146",
+                           "guardianName":  "渡辺 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h148",
+                           "guardianName":  "山本 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h150",
+                           "guardianName":  "中村 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h152",
+                           "guardianName":  "小林 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h154",
+                           "guardianName":  "加藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h156",
+                           "guardianName":  "吉田 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h158",
+                           "guardianName":  "山田 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h160",
+                           "guardianName":  "松本 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h162",
+                           "guardianName":  "井上 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h164",
+                           "guardianName":  "木村 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h166",
+                           "guardianName":  "田中 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h168",
+                           "guardianName":  "佐藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h170",
+                           "guardianName":  "鈴木 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+                                                  {
+                                                      "fiscalYear":  2024,
+                                                      "division":  "PTA",
+                                                      "role":  "副会長",
+                                                      "note":  ""
+                                                  },
+                                                  {
+                                                      "fiscalYear":  2023,
+                                                      "division":  "PTA",
+                                                      "role":  "本部役員（書記）",
+                                                      "note":  ""
+                                                  }
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h172",
+                           "guardianName":  "高橋 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h174",
+                           "guardianName":  "伊藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h176",
+                           "guardianName":  "渡辺 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h178",
+                           "guardianName":  "山本 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h180",
+                           "guardianName":  "中村 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h182",
+                           "guardianName":  "小林 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h184",
+                           "guardianName":  "加藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h186",
+                           "guardianName":  "吉田 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h188",
+                           "guardianName":  "山田 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h190",
+                           "guardianName":  "松本 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h192",
+                           "guardianName":  "井上 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h194",
+                           "guardianName":  "木村 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h196",
+                           "guardianName":  "田中 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h198",
+                           "guardianName":  "佐藤 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h200",
+                           "guardianName":  "鈴木 一郎",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h202",
+                           "guardianName":  "高橋 花子",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h204",
+                           "guardianName":  "伊藤 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h206",
+                           "guardianName":  "渡辺 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h208",
+                           "guardianName":  "山本 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h210",
+                           "guardianName":  "中村 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h212",
+                           "guardianName":  "小林 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h214",
+                           "guardianName":  "加藤 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h216",
+                           "guardianName":  "吉田 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h218",
+                           "guardianName":  "山田 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  true,
+                           "exemptReason":  "家庭の事情",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h220",
+                           "guardianName":  "松本 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h222",
+                           "guardianName":  "井上 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h224",
+                           "guardianName":  "木村 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h226",
+                           "guardianName":  "田中 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h228",
+                           "guardianName":  "佐藤 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h230",
+                           "guardianName":  "鈴木 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h232",
+                           "guardianName":  "高橋 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h234",
+                           "guardianName":  "伊藤 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h236",
+                           "guardianName":  "渡辺 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h238",
+                           "guardianName":  "山本 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h240",
+                           "guardianName":  "中村 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h242",
+                           "guardianName":  "小林 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h244",
+                           "guardianName":  "加藤 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h246",
+                           "guardianName":  "吉田 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h248",
+                           "guardianName":  "山田 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h250",
+                           "guardianName":  "松本 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h252",
+                           "guardianName":  "井上 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h254",
+                           "guardianName":  "木村 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h256",
+                           "guardianName":  "田中 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h258",
+                           "guardianName":  "佐藤 健",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h260",
+                           "guardianName":  "鈴木 美香",
+                           "membershipStatus":  "member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       },
+                       {
+                           "id":  "h262",
+                           "guardianName":  "高橋 健",
+                           "membershipStatus":  "non_member",
+                           "officerExempt":  false,
+                           "exemptReason":  "",
+                           "officerHistory":  [
+
+                                              ],
+                           "householdMemo":  ""
+                       }
+                   ],
+    "children":  [
+                     {
+                         "id":  "ch2",
+                         "householdId":  "h1",
+                         "name":  "田中 太郎",
+                         "studentKana":  "タナカ タロウ",
+                         "grade":  4,
+                         "classId":  "c42"
+                     },
+                     {
+                         "id":  "ch3",
+                         "householdId":  "h1",
+                         "name":  "田中 次郎",
+                         "studentKana":  "タナカ ジロウ",
+                         "grade":  1,
+                         "classId":  "c11"
+                     },
+                     {
+                         "id":  "ch4",
+                         "householdId":  "h1",
+                         "name":  "田中 三郎",
+                         "studentKana":  "タナカ サブロウ",
+                         "grade":  1,
+                         "classId":  "c12"
+                     },
+                     {
+                         "id":  "ch6",
+                         "householdId":  "h5",
+                         "name":  "佐藤 美咲",
+                         "studentKana":  "サトウ ミサキ",
+                         "grade":  3,
+                         "classId":  "c31"
+                     },
+                     {
+                         "id":  "ch8",
+                         "householdId":  "h7",
+                         "name":  "鈴木 健太",
+                         "studentKana":  "スズキ ケンタ",
+                         "grade":  2,
+                         "classId":  "c21"
+                     },
+                     {
+                         "id":  "ch10",
+                         "householdId":  "h9",
+                         "name":  "高橋 翔太",
+                         "studentKana":  "タカハシ ショウタ",
+                         "grade":  5,
+                         "classId":  "c53"
+                     },
+                     {
+                         "id":  "ch12",
+                         "householdId":  "h11",
+                         "name":  "伊藤 蓮",
+                         "studentKana":  "イトウ レン",
+                         "grade":  2,
+                         "classId":  "c23"
+                     },
+                     {
+                         "id":  "ch13",
+                         "householdId":  "h11",
+                         "name":  "伊藤 葵",
+                         "studentKana":  "イトウ アオイ",
+                         "grade":  2,
+                         "classId":  "c24"
+                     },
+                     {
+                         "id":  "ch15",
+                         "householdId":  "h14",
+                         "name":  "渡辺 悠斗",
+                         "studentKana":  "ワタナベ ユウト",
+                         "grade":  3,
+                         "classId":  "cs1",
+                         "exchangeClass":  "3年2組（交流）"
+                     },
+                     {
+                         "id":  "ch17",
+                         "householdId":  "h16",
+                         "name":  "田中 太郎",
+                         "studentKana":  "タナカ タロウ",
+                         "grade":  1,
+                         "classId":  "c11"
+                     },
+                     {
+                         "id":  "ch19",
+                         "householdId":  "h18",
+                         "name":  "佐藤 花子",
+                         "studentKana":  "サトウ ハナコ",
+                         "grade":  1,
+                         "classId":  "c11"
+                     },
+                     {
+                         "id":  "ch21",
+                         "householdId":  "h20",
+                         "name":  "鈴木 太郎",
+                         "studentKana":  "スズキ タロウ",
+                         "grade":  1,
+                         "classId":  "c11"
+                     },
+                     {
+                         "id":  "ch23",
+                         "householdId":  "h22",
+                         "name":  "高橋 花子",
+                         "studentKana":  "タカハシ ハナコ",
+                         "grade":  1,
+                         "classId":  "c11"
+                     },
+                     {
+                         "id":  "ch25",
+                         "householdId":  "h24",
+                         "name":  "伊藤 花子",
+                         "studentKana":  "イトウ ハナコ",
+                         "grade":  1,
+                         "classId":  "c12"
+                     },
+                     {
+                         "id":  "ch27",
+                         "householdId":  "h26",
+                         "name":  "渡辺 太郎",
+                         "studentKana":  "ワタナベ タロウ",
+                         "grade":  1,
+                         "classId":  "c12"
+                     },
+                     {
+                         "id":  "ch29",
+                         "householdId":  "h28",
+                         "name":  "山本 花子",
+                         "studentKana":  "ヤマモト ハナコ",
+                         "grade":  1,
+                         "classId":  "c12"
+                     },
+                     {
+                         "id":  "ch31",
+                         "householdId":  "h30",
+                         "name":  "中村 太郎",
+                         "studentKana":  "ナカムラ タロウ",
+                         "grade":  1,
+                         "classId":  "c13"
+                     },
+                     {
+                         "id":  "ch33",
+                         "householdId":  "h32",
+                         "name":  "小林 花子",
+                         "studentKana":  "コバヤシ ハナコ",
+                         "grade":  1,
+                         "classId":  "c13"
+                     },
+                     {
+                         "id":  "ch35",
+                         "householdId":  "h34",
+                         "name":  "加藤 太郎",
+                         "studentKana":  "カトウ タロウ",
+                         "grade":  1,
+                         "classId":  "c13"
+                     },
+                     {
+                         "id":  "ch37",
+                         "householdId":  "h36",
+                         "name":  "吉田 花子",
+                         "studentKana":  "ヨシダ ハナコ",
+                         "grade":  1,
+                         "classId":  "c13"
+                     },
+                     {
+                         "id":  "ch39",
+                         "householdId":  "h38",
+                         "name":  "山田 花子",
+                         "studentKana":  "ヤマダ ハナコ",
+                         "grade":  1,
+                         "classId":  "c14"
+                     },
+                     {
+                         "id":  "ch41",
+                         "householdId":  "h40",
+                         "name":  "松本 太郎",
+                         "studentKana":  "マツモト タロウ",
+                         "grade":  1,
+                         "classId":  "c14"
+                     },
+                     {
+                         "id":  "ch43",
+                         "householdId":  "h42",
+                         "name":  "井上 花子",
+                         "studentKana":  "イノウエ ハナコ",
+                         "grade":  1,
+                         "classId":  "c14"
+                     },
+                     {
+                         "id":  "ch45",
+                         "householdId":  "h44",
+                         "name":  "木村 花子",
+                         "studentKana":  "キムラ ハナコ",
+                         "grade":  2,
+                         "classId":  "c21"
+                     },
+                     {
+                         "id":  "ch47",
+                         "householdId":  "h46",
+                         "name":  "田中 健太",
+                         "studentKana":  "タナカ ケンタ",
+                         "grade":  2,
+                         "classId":  "c21"
+                     },
+                     {
+                         "id":  "ch49",
+                         "householdId":  "h48",
+                         "name":  "佐藤 美咲",
+                         "studentKana":  "サトウ ミサキ",
+                         "grade":  2,
+                         "classId":  "c21"
+                     },
+                     {
+                         "id":  "ch51",
+                         "householdId":  "h50",
+                         "name":  "鈴木 健太",
+                         "studentKana":  "スズキ ケンタ",
+                         "grade":  2,
+                         "classId":  "c22"
+                     },
+                     {
+                         "id":  "ch53",
+                         "householdId":  "h52",
+                         "name":  "高橋 美咲",
+                         "studentKana":  "タカハシ ミサキ",
+                         "grade":  2,
+                         "classId":  "c22"
+                     },
+                     {
+                         "id":  "ch55",
+                         "householdId":  "h54",
+                         "name":  "伊藤 健太",
+                         "studentKana":  "イトウ ケンタ",
+                         "grade":  2,
+                         "classId":  "c22"
+                     },
+                     {
+                         "id":  "ch57",
+                         "householdId":  "h56",
+                         "name":  "渡辺 美咲",
+                         "studentKana":  "ワタナベ ミサキ",
+                         "grade":  2,
+                         "classId":  "c22"
+                     },
+                     {
+                         "id":  "ch59",
+                         "householdId":  "h58",
+                         "name":  "山本 美咲",
+                         "studentKana":  "ヤマモト ミサキ",
+                         "grade":  2,
+                         "classId":  "c23"
+                     },
+                     {
+                         "id":  "ch61",
+                         "householdId":  "h60",
+                         "name":  "中村 健太",
+                         "studentKana":  "ナカムラ ケンタ",
+                         "grade":  2,
+                         "classId":  "c23"
+                     },
+                     {
+                         "id":  "ch63",
+                         "householdId":  "h62",
+                         "name":  "小林 美咲",
+                         "studentKana":  "コバヤシ ミサキ",
+                         "grade":  2,
+                         "classId":  "c23"
+                     },
+                     {
+                         "id":  "ch65",
+                         "householdId":  "h64",
+                         "name":  "加藤 健太",
+                         "studentKana":  "カトウ ケンタ",
+                         "grade":  2,
+                         "classId":  "c24"
+                     },
+                     {
+                         "id":  "ch67",
+                         "householdId":  "h66",
+                         "name":  "吉田 美咲",
+                         "studentKana":  "ヨシダ ミサキ",
+                         "grade":  2,
+                         "classId":  "c24"
+                     },
+                     {
+                         "id":  "ch69",
+                         "householdId":  "h68",
+                         "name":  "山田 健太",
+                         "studentKana":  "ヤマダ ケンタ",
+                         "grade":  2,
+                         "classId":  "c24"
+                     },
+                     {
+                         "id":  "ch71",
+                         "householdId":  "h70",
+                         "name":  "松本 美咲",
+                         "studentKana":  "マツモト ミサキ",
+                         "grade":  2,
+                         "classId":  "c24"
+                     },
+                     {
+                         "id":  "ch73",
+                         "householdId":  "h72",
+                         "name":  "井上 健太",
+                         "studentKana":  "イノウエ ケンタ",
+                         "grade":  3,
+                         "classId":  "c31"
+                     },
+                     {
+                         "id":  "ch75",
+                         "householdId":  "h74",
+                         "name":  "木村 美咲",
+                         "studentKana":  "キムラ ミサキ",
+                         "grade":  3,
+                         "classId":  "c31"
+                     },
+                     {
+                         "id":  "ch77",
+                         "householdId":  "h76",
+                         "name":  "田中 翔太",
+                         "studentKana":  "タナカ ショウタ",
+                         "grade":  3,
+                         "classId":  "c31"
+                     },
+                     {
+                         "id":  "ch79",
+                         "householdId":  "h78",
+                         "name":  "佐藤 結衣",
+                         "studentKana":  "サトウ ユイ",
+                         "grade":  3,
+                         "classId":  "c31"
+                     },
+                     {
+                         "id":  "ch81",
+                         "householdId":  "h80",
+                         "name":  "鈴木 結衣",
+                         "studentKana":  "スズキ ユイ",
+                         "grade":  3,
+                         "classId":  "c32"
+                     },
+                     {
+                         "id":  "ch83",
+                         "householdId":  "h82",
+                         "name":  "高橋 翔太",
+                         "studentKana":  "タカハシ ショウタ",
+                         "grade":  3,
+                         "classId":  "c32"
+                     },
+                     {
+                         "id":  "ch85",
+                         "householdId":  "h84",
+                         "name":  "伊藤 結衣",
+                         "studentKana":  "イトウ ユイ",
+                         "grade":  3,
+                         "classId":  "c32"
+                     },
+                     {
+                         "id":  "ch87",
+                         "householdId":  "h86",
+                         "name":  "渡辺 翔太",
+                         "studentKana":  "ワタナベ ショウタ",
+                         "grade":  3,
+                         "classId":  "c33"
+                     },
+                     {
+                         "id":  "ch89",
+                         "householdId":  "h88",
+                         "name":  "山本 結衣",
+                         "studentKana":  "ヤマモト ユイ",
+                         "grade":  3,
+                         "classId":  "c33"
+                     },
+                     {
+                         "id":  "ch91",
+                         "householdId":  "h90",
+                         "name":  "中村 翔太",
+                         "studentKana":  "ナカムラ ショウタ",
+                         "grade":  3,
+                         "classId":  "c33"
+                     },
+                     {
+                         "id":  "ch93",
+                         "householdId":  "h92",
+                         "name":  "小林 結衣",
+                         "studentKana":  "コバヤシ ユイ",
+                         "grade":  3,
+                         "classId":  "c33"
+                     },
+                     {
+                         "id":  "ch95",
+                         "householdId":  "h94",
+                         "name":  "加藤 結衣",
+                         "studentKana":  "カトウ ユイ",
+                         "grade":  3,
+                         "classId":  "c34"
+                     },
+                     {
+                         "id":  "ch97",
+                         "householdId":  "h96",
+                         "name":  "吉田 翔太",
+                         "studentKana":  "ヨシダ ショウタ",
+                         "grade":  3,
+                         "classId":  "c34"
+                     },
+                     {
+                         "id":  "ch99",
+                         "householdId":  "h98",
+                         "name":  "山田 結衣",
+                         "studentKana":  "ヤマダ ユイ",
+                         "grade":  3,
+                         "classId":  "c34"
+                     },
+                     {
+                         "id":  "ch101",
+                         "householdId":  "h100",
+                         "name":  "松本 結衣",
+                         "studentKana":  "マツモト ユイ",
+                         "grade":  4,
+                         "classId":  "c41"
+                     },
+                     {
+                         "id":  "ch103",
+                         "householdId":  "h102",
+                         "name":  "井上 翔太",
+                         "studentKana":  "イノウエ ショウタ",
+                         "grade":  4,
+                         "classId":  "c41"
+                     },
+                     {
+                         "id":  "ch105",
+                         "householdId":  "h104",
+                         "name":  "木村 結衣",
+                         "studentKana":  "キムラ ユイ",
+                         "grade":  4,
+                         "classId":  "c41"
+                     },
+                     {
+                         "id":  "ch107",
+                         "householdId":  "h106",
+                         "name":  "田中 大輔",
+                         "studentKana":  "タナカ ダイスケ",
+                         "grade":  4,
+                         "classId":  "c42"
+                     },
+                     {
+                         "id":  "ch109",
+                         "householdId":  "h108",
+                         "name":  "佐藤 さくら",
+                         "studentKana":  "サトウ サクラ",
+                         "grade":  4,
+                         "classId":  "c42"
+                     },
+                     {
+                         "id":  "ch111",
+                         "householdId":  "h110",
+                         "name":  "鈴木 大輔",
+                         "studentKana":  "スズキ ダイスケ",
+                         "grade":  4,
+                         "classId":  "c42"
+                     },
+                     {
+                         "id":  "ch113",
+                         "householdId":  "h112",
+                         "name":  "高橋 さくら",
+                         "studentKana":  "タカハシ サクラ",
+                         "grade":  4,
+                         "classId":  "c42"
+                     },
+                     {
+                         "id":  "ch115",
+                         "householdId":  "h114",
+                         "name":  "伊藤 さくら",
+                         "studentKana":  "イトウ サクラ",
+                         "grade":  4,
+                         "classId":  "c43"
+                     },
+                     {
+                         "id":  "ch117",
+                         "householdId":  "h116",
+                         "name":  "渡辺 大輔",
+                         "studentKana":  "ワタナベ ダイスケ",
+                         "grade":  4,
+                         "classId":  "c43"
+                     },
+                     {
+                         "id":  "ch119",
+                         "householdId":  "h118",
+                         "name":  "山本 さくら",
+                         "studentKana":  "ヤマモト サクラ",
+                         "grade":  4,
+                         "classId":  "c43"
+                     },
+                     {
+                         "id":  "ch121",
+                         "householdId":  "h120",
+                         "name":  "中村 大輔",
+                         "studentKana":  "ナカムラ ダイスケ",
+                         "grade":  4,
+                         "classId":  "c44"
+                     },
+                     {
+                         "id":  "ch123",
+                         "householdId":  "h122",
+                         "name":  "小林 さくら",
+                         "studentKana":  "コバヤシ サクラ",
+                         "grade":  4,
+                         "classId":  "c44"
+                     },
+                     {
+                         "id":  "ch125",
+                         "householdId":  "h124",
+                         "name":  "加藤 大輔",
+                         "studentKana":  "カトウ ダイスケ",
+                         "grade":  4,
+                         "classId":  "c44"
+                     },
+                     {
+                         "id":  "ch127",
+                         "householdId":  "h126",
+                         "name":  "吉田 さくら",
+                         "studentKana":  "ヨシダ サクラ",
+                         "grade":  4,
+                         "classId":  "c44"
+                     },
+                     {
+                         "id":  "ch129",
+                         "householdId":  "h128",
+                         "name":  "山田 さくら",
+                         "studentKana":  "ヤマダ サクラ",
+                         "grade":  4,
+                         "classId":  "c45"
+                     },
+                     {
+                         "id":  "ch131",
+                         "householdId":  "h130",
+                         "name":  "松本 大輔",
+                         "studentKana":  "マツモト ダイスケ",
+                         "grade":  4,
+                         "classId":  "c45"
+                     },
+                     {
+                         "id":  "ch133",
+                         "householdId":  "h132",
+                         "name":  "井上 さくら",
+                         "studentKana":  "イノウエ サクラ",
+                         "grade":  4,
+                         "classId":  "c45"
+                     },
+                     {
+                         "id":  "ch135",
+                         "householdId":  "h134",
+                         "name":  "木村 大輔",
+                         "studentKana":  "キムラ ダイスケ",
+                         "grade":  5,
+                         "classId":  "c51"
+                     },
+                     {
+                         "id":  "ch137",
+                         "householdId":  "h136",
+                         "name":  "田中 陽菜",
+                         "studentKana":  "タナカ ヒナ",
+                         "grade":  5,
+                         "classId":  "c51"
+                     },
+                     {
+                         "id":  "ch139",
+                         "householdId":  "h138",
+                         "name":  "佐藤 蓮",
+                         "studentKana":  "サトウ レン",
+                         "grade":  5,
+                         "classId":  "c51"
+                     },
+                     {
+                         "id":  "ch141",
+                         "householdId":  "h140",
+                         "name":  "鈴木 陽菜",
+                         "studentKana":  "スズキ ヒナ",
+                         "grade":  5,
+                         "classId":  "c51"
+                     },
+                     {
+                         "id":  "ch143",
+                         "householdId":  "h142",
+                         "name":  "高橋 陽菜",
+                         "studentKana":  "タカハシ ヒナ",
+                         "grade":  5,
+                         "classId":  "c52"
+                     },
+                     {
+                         "id":  "ch145",
+                         "householdId":  "h144",
+                         "name":  "伊藤 蓮",
+                         "studentKana":  "イトウ レン",
+                         "grade":  5,
+                         "classId":  "c52"
+                     },
+                     {
+                         "id":  "ch147",
+                         "householdId":  "h146",
+                         "name":  "渡辺 陽菜",
+                         "studentKana":  "ワタナベ ヒナ",
+                         "grade":  5,
+                         "classId":  "c52"
+                     },
+                     {
+                         "id":  "ch149",
+                         "householdId":  "h148",
+                         "name":  "山本 蓮",
+                         "studentKana":  "ヤマモト レン",
+                         "grade":  5,
+                         "classId":  "c53"
+                     },
+                     {
+                         "id":  "ch151",
+                         "householdId":  "h150",
+                         "name":  "中村 陽菜",
+                         "studentKana":  "ナカムラ ヒナ",
+                         "grade":  5,
+                         "classId":  "c53"
+                     },
+                     {
+                         "id":  "ch153",
+                         "householdId":  "h152",
+                         "name":  "小林 蓮",
+                         "studentKana":  "コバヤシ レン",
+                         "grade":  5,
+                         "classId":  "c53"
+                     },
+                     {
+                         "id":  "ch155",
+                         "householdId":  "h154",
+                         "name":  "加藤 陽菜",
+                         "studentKana":  "カトウ ヒナ",
+                         "grade":  5,
+                         "classId":  "c53"
+                     },
+                     {
+                         "id":  "ch157",
+                         "householdId":  "h156",
+                         "name":  "吉田 陽菜",
+                         "studentKana":  "ヨシダ ヒナ",
+                         "grade":  5,
+                         "classId":  "c54"
+                     },
+                     {
+                         "id":  "ch159",
+                         "householdId":  "h158",
+                         "name":  "山田 蓮",
+                         "studentKana":  "ヤマダ レン",
+                         "grade":  5,
+                         "classId":  "c54"
+                     },
+                     {
+                         "id":  "ch161",
+                         "householdId":  "h160",
+                         "name":  "松本 陽菜",
+                         "studentKana":  "マツモト ヒナ",
+                         "grade":  5,
+                         "classId":  "c54"
+                     },
+                     {
+                         "id":  "ch163",
+                         "householdId":  "h162",
+                         "name":  "井上 蓮",
+                         "studentKana":  "イノウエ レン",
+                         "grade":  5,
+                         "classId":  "c55"
+                     },
+                     {
+                         "id":  "ch165",
+                         "householdId":  "h164",
+                         "name":  "木村 陽菜",
+                         "studentKana":  "キムラ ヒナ",
+                         "grade":  5,
+                         "classId":  "c55"
+                     },
+                     {
+                         "id":  "ch167",
+                         "householdId":  "h166",
+                         "name":  "田中 悠斗",
+                         "studentKana":  "タナカ ユウト",
+                         "grade":  5,
+                         "classId":  "c55"
+                     },
+                     {
+                         "id":  "ch169",
+                         "householdId":  "h168",
+                         "name":  "佐藤 凛",
+                         "studentKana":  "サトウ リン",
+                         "grade":  5,
+                         "classId":  "c55"
+                     },
+                     {
+                         "id":  "ch171",
+                         "householdId":  "h170",
+                         "name":  "鈴木 凛",
+                         "studentKana":  "スズキ リン",
+                         "grade":  6,
+                         "classId":  "c61"
+                     },
+                     {
+                         "id":  "ch173",
+                         "householdId":  "h172",
+                         "name":  "高橋 悠斗",
+                         "studentKana":  "タカハシ ユウト",
+                         "grade":  6,
+                         "classId":  "c61"
+                     },
+                     {
+                         "id":  "ch175",
+                         "householdId":  "h174",
+                         "name":  "伊藤 凛",
+                         "studentKana":  "イトウ リン",
+                         "grade":  6,
+                         "classId":  "c61"
+                     },
+                     {
+                         "id":  "ch177",
+                         "householdId":  "h176",
+                         "name":  "渡辺 悠斗",
+                         "studentKana":  "ワタナベ ユウト",
+                         "grade":  6,
+                         "classId":  "c62"
+                     },
+                     {
+                         "id":  "ch179",
+                         "householdId":  "h178",
+                         "name":  "山本 凛",
+                         "studentKana":  "ヤマモト リン",
+                         "grade":  6,
+                         "classId":  "c62"
+                     },
+                     {
+                         "id":  "ch181",
+                         "householdId":  "h180",
+                         "name":  "中村 悠斗",
+                         "studentKana":  "ナカムラ ユウト",
+                         "grade":  6,
+                         "classId":  "c62"
+                     },
+                     {
+                         "id":  "ch183",
+                         "householdId":  "h182",
+                         "name":  "小林 凛",
+                         "studentKana":  "コバヤシ リン",
+                         "grade":  6,
+                         "classId":  "c62"
+                     },
+                     {
+                         "id":  "ch185",
+                         "householdId":  "h184",
+                         "name":  "加藤 凛",
+                         "studentKana":  "カトウ リン",
+                         "grade":  6,
+                         "classId":  "c63"
+                     },
+                     {
+                         "id":  "ch187",
+                         "householdId":  "h186",
+                         "name":  "吉田 悠斗",
+                         "studentKana":  "ヨシダ ユウト",
+                         "grade":  6,
+                         "classId":  "c63"
+                     },
+                     {
+                         "id":  "ch189",
+                         "householdId":  "h188",
+                         "name":  "山田 凛",
+                         "studentKana":  "ヤマダ リン",
+                         "grade":  6,
+                         "classId":  "c63"
+                     },
+                     {
+                         "id":  "ch191",
+                         "householdId":  "h190",
+                         "name":  "松本 悠斗",
+                         "studentKana":  "マツモト ユウト",
+                         "grade":  6,
+                         "classId":  "c64"
+                     },
+                     {
+                         "id":  "ch193",
+                         "householdId":  "h192",
+                         "name":  "井上 凛",
+                         "studentKana":  "イノウエ リン",
+                         "grade":  6,
+                         "classId":  "c64"
+                     },
+                     {
+                         "id":  "ch195",
+                         "householdId":  "h194",
+                         "name":  "木村 悠斗",
+                         "studentKana":  "キムラ ユウト",
+                         "grade":  6,
+                         "classId":  "c64"
+                     },
+                     {
+                         "id":  "ch197",
+                         "householdId":  "h196",
+                         "name":  "田中 葵",
+                         "studentKana":  "タナカ アオイ",
+                         "grade":  6,
+                         "classId":  "c64"
+                     },
+                     {
+                         "id":  "ch199",
+                         "householdId":  "h198",
+                         "name":  "佐藤 葵",
+                         "studentKana":  "サトウ アオイ",
+                         "grade":  6,
+                         "classId":  "c65"
+                     },
+                     {
+                         "id":  "ch201",
+                         "householdId":  "h200",
+                         "name":  "鈴木 陽向",
+                         "studentKana":  "スズキ ヒナタ",
+                         "grade":  6,
+                         "classId":  "c65"
+                     },
+                     {
+                         "id":  "ch203",
+                         "householdId":  "h202",
+                         "name":  "高橋 葵",
+                         "studentKana":  "タカハシ アオイ",
+                         "grade":  6,
+                         "classId":  "c65"
+                     },
+                     {
+                         "id":  "ch205",
+                         "householdId":  "h204",
+                         "name":  "伊藤 葵",
+                         "studentKana":  "イトウ アオイ",
+                         "grade":  1,
+                         "classId":  "cs1",
+                         "exchangeClass":  "1年1組（交流）"
+                     },
+                     {
+                         "id":  "ch207",
+                         "householdId":  "h206",
+                         "name":  "渡辺 陽向",
+                         "studentKana":  "ワタナベ ヒナタ",
+                         "grade":  2,
+                         "classId":  "cs1"
+                     },
+                     {
+                         "id":  "ch209",
+                         "householdId":  "h208",
+                         "name":  "山本 葵",
+                         "studentKana":  "ヤマモト アオイ",
+                         "grade":  3,
+                         "classId":  "cs1"
+                     },
+                     {
+                         "id":  "ch211",
+                         "householdId":  "h210",
+                         "name":  "中村 陽向",
+                         "studentKana":  "ナカムラ ヒナタ",
+                         "grade":  4,
+                         "classId":  "cs1",
+                         "exchangeClass":  "4年1組（交流）"
+                     },
+                     {
+                         "id":  "ch213",
+                         "householdId":  "h212",
+                         "name":  "小林 葵",
+                         "studentKana":  "コバヤシ アオイ",
+                         "grade":  5,
+                         "classId":  "cs1"
+                     },
+                     {
+                         "id":  "ch215",
+                         "householdId":  "h214",
+                         "name":  "加藤 陽向",
+                         "studentKana":  "カトウ ヒナタ",
+                         "grade":  6,
+                         "classId":  "cs1"
+                     },
+                     {
+                         "id":  "ch217",
+                         "householdId":  "h216",
+                         "name":  "吉田 陽向",
+                         "studentKana":  "ヨシダ ヒナタ",
+                         "grade":  2,
+                         "classId":  "cs2",
+                         "exchangeClass":  "2年2組（交流）"
+                     },
+                     {
+                         "id":  "ch219",
+                         "householdId":  "h218",
+                         "name":  "山田 葵",
+                         "studentKana":  "ヤマダ アオイ",
+                         "grade":  3,
+                         "classId":  "cs2"
+                     },
+                     {
+                         "id":  "ch221",
+                         "householdId":  "h220",
+                         "name":  "松本 陽向",
+                         "studentKana":  "マツモト ヒナタ",
+                         "grade":  4,
+                         "classId":  "cs2"
+                     },
+                     {
+                         "id":  "ch223",
+                         "householdId":  "h222",
+                         "name":  "井上 葵",
+                         "studentKana":  "イノウエ アオイ",
+                         "grade":  5,
+                         "classId":  "cs2",
+                         "exchangeClass":  "5年2組（交流）"
+                     },
+                     {
+                         "id":  "ch225",
+                         "householdId":  "h224",
+                         "name":  "木村 陽向",
+                         "studentKana":  "キムラ ヒナタ",
+                         "grade":  6,
+                         "classId":  "cs2"
+                     },
+                     {
+                         "id":  "ch227",
+                         "householdId":  "h226",
+                         "name":  "田中 心春",
+                         "studentKana":  "タナカ コハル",
+                         "grade":  1,
+                         "classId":  "cs2"
+                     },
+                     {
+                         "id":  "ch229",
+                         "householdId":  "h228",
+                         "name":  "佐藤 心春",
+                         "studentKana":  "サトウ コハル",
+                         "grade":  3,
+                         "classId":  "cs3",
+                         "exchangeClass":  "3年3組（交流）"
+                     },
+                     {
+                         "id":  "ch231",
+                         "householdId":  "h230",
+                         "name":  "鈴木 颯太",
+                         "studentKana":  "スズキ ソウタ",
+                         "grade":  4,
+                         "classId":  "cs3"
+                     },
+                     {
+                         "id":  "ch233",
+                         "householdId":  "h232",
+                         "name":  "高橋 心春",
+                         "studentKana":  "タカハシ コハル",
+                         "grade":  5,
+                         "classId":  "cs3"
+                     },
+                     {
+                         "id":  "ch235",
+                         "householdId":  "h234",
+                         "name":  "伊藤 颯太",
+                         "studentKana":  "イトウ ソウタ",
+                         "grade":  6,
+                         "classId":  "cs3",
+                         "exchangeClass":  "6年3組（交流）"
+                     },
+                     {
+                         "id":  "ch237",
+                         "householdId":  "h236",
+                         "name":  "渡辺 心春",
+                         "studentKana":  "ワタナベ コハル",
+                         "grade":  1,
+                         "classId":  "cs3"
+                     },
+                     {
+                         "id":  "ch239",
+                         "householdId":  "h238",
+                         "name":  "山本 颯太",
+                         "studentKana":  "ヤマモト ソウタ",
+                         "grade":  2,
+                         "classId":  "cs3"
+                     },
+                     {
+                         "id":  "ch241",
+                         "householdId":  "h240",
+                         "name":  "中村 颯太",
+                         "studentKana":  "ナカムラ ソウタ",
+                         "grade":  4,
+                         "classId":  "cs4",
+                         "exchangeClass":  "4年4組（交流）"
+                     },
+                     {
+                         "id":  "ch243",
+                         "householdId":  "h242",
+                         "name":  "小林 心春",
+                         "studentKana":  "コバヤシ コハル",
+                         "grade":  5,
+                         "classId":  "cs4"
+                     },
+                     {
+                         "id":  "ch245",
+                         "householdId":  "h244",
+                         "name":  "加藤 颯太",
+                         "studentKana":  "カトウ ソウタ",
+                         "grade":  6,
+                         "classId":  "cs4"
+                     },
+                     {
+                         "id":  "ch247",
+                         "householdId":  "h246",
+                         "name":  "吉田 心春",
+                         "studentKana":  "ヨシダ コハル",
+                         "grade":  1,
+                         "classId":  "cs4",
+                         "exchangeClass":  "1年4組（交流）"
+                     },
+                     {
+                         "id":  "ch249",
+                         "householdId":  "h248",
+                         "name":  "山田 颯太",
+                         "studentKana":  "ヤマダ ソウタ",
+                         "grade":  2,
+                         "classId":  "cs4"
+                     },
+                     {
+                         "id":  "ch251",
+                         "householdId":  "h250",
+                         "name":  "松本 心春",
+                         "studentKana":  "マツモト コハル",
+                         "grade":  3,
+                         "classId":  "cs4"
+                     },
+                     {
+                         "id":  "ch253",
+                         "householdId":  "h252",
+                         "name":  "井上 心春",
+                         "studentKana":  "イノウエ コハル",
+                         "grade":  5,
+                         "classId":  "cs5",
+                         "exchangeClass":  "5年5組（交流）"
+                     },
+                     {
+                         "id":  "ch255",
+                         "householdId":  "h254",
+                         "name":  "木村 颯太",
+                         "studentKana":  "キムラ ソウタ",
+                         "grade":  6,
+                         "classId":  "cs5"
+                     },
+                     {
+                         "id":  "ch257",
+                         "householdId":  "h256",
+                         "name":  "田中 花子",
+                         "studentKana":  "タナカ ハナコ",
+                         "grade":  1,
+                         "classId":  "cs5"
+                     },
+                     {
+                         "id":  "ch259",
+                         "householdId":  "h258",
+                         "name":  "佐藤 太郎",
+                         "studentKana":  "サトウ タロウ",
+                         "grade":  2,
+                         "classId":  "cs5",
+                         "exchangeClass":  "2年5組（交流）"
+                     },
+                     {
+                         "id":  "ch261",
+                         "householdId":  "h260",
+                         "name":  "鈴木 花子",
+                         "studentKana":  "スズキ ハナコ",
+                         "grade":  3,
+                         "classId":  "cs5"
+                     },
+                     {
+                         "id":  "ch263",
+                         "householdId":  "h262",
+                         "name":  "高橋 太郎",
+                         "studentKana":  "タカハシ タロウ",
+                         "grade":  4,
+                         "classId":  "cs5"
+                     }
+                 ]
 }
