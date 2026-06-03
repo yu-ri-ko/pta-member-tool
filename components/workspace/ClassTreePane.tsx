@@ -85,17 +85,18 @@ function GradeGroupSection({
   selectedClassId: string;
   onSelectClass: (classId: string) => void;
 }) {
-  const [open, setOpen] = useState(true);
+  // デフォルトは閉じた状態（クリックで開閉）
+  const [open, setOpen] = useState(false);
 
   return (
     <Collapsible open={open} onOpenChange={setOpen}>
       <SidebarGroup className="px-1 py-0">
-        {/* グループ見出し: クリックで折りたたみ */}
-        <CollapsibleTrigger className="flex w-full items-center justify-between rounded-md px-2 py-1.5 text-xs font-semibold tracking-wide text-sidebar-foreground/70 uppercase outline-none transition-colors hover:text-sidebar-foreground focus-visible:ring-2 focus-visible:ring-ring/50">
+        {/* グループ見出し: クリックで折りたたみ。text-sm で「◯年」を大きく表示 */}
+        <CollapsibleTrigger className="flex w-full items-center justify-between rounded-md px-2 py-1.5 text-sm font-semibold text-sidebar-foreground outline-none transition-colors hover:bg-sidebar-accent hover:text-sidebar-accent-foreground focus-visible:ring-2 focus-visible:ring-ring/50">
           {label}
           <ChevronDown
             aria-hidden
-            className="size-3.5 transition-transform in-data-[panel-open]:rotate-180"
+            className="size-4 transition-transform in-data-[panel-open]:rotate-180"
           />
         </CollapsibleTrigger>
 
@@ -112,7 +113,10 @@ function GradeGroupSection({
                       aria-current={active ? "page" : undefined}
                       onClick={() => onSelectClass(cls.id)}
                     >
-                      <span className="truncate">{cls.name}</span>
+                      {/* text-xs で「◯組」を小さく表示し、学年見出しとのサイズ差をつける */}
+                      <span className="truncate text-xs text-sidebar-foreground/80">
+                        {cls.name}
+                      </span>
                     </SidebarMenuButton>
                   </SidebarMenuItem>
                 );

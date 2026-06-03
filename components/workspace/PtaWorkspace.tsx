@@ -54,8 +54,11 @@ export function PtaWorkspace({ data }: PtaWorkspaceProps) {
   const firstClassId = gradeGroupTree[0]?.classes[0]?.id ?? "";
   const [selectedClassId, setSelectedClassId] = useState(firstClassId);
 
-  // 中ペインの選択児童（null = 未選択。クラス変更時に render でフォールバック）
-  const [selectedChildId, setSelectedChildId] = useState<string | null>(null);
+  // 中ペイン選択: 現クラスの中でどの児童を選んでいるか
+  const [selectedMidChildId, setSelectedMidChildId] = useState<string | null>(null);
+
+  // 右ペイン詳細: どの兄弟の情報を詳細表示するか（同世帯なら別クラスでも可）
+  const [selectedDetailChildId, setSelectedDetailChildId] = useState<string | null>(null);
 
   // 選択クラスの表示タイトル（例: "1年 1組"）
   const selectedClassObj = classById.get(selectedClassId);
@@ -73,17 +76,29 @@ export function PtaWorkspace({ data }: PtaWorkspaceProps) {
     [data.children, data.households, selectedClassId],
   );
 
-  // クラス変更で selectedChildId が無効になった場合、先頭児童にフォールバック
-  // Effect+setState を使わず、レンダー時に派生計算する（React 19 規律）
-  const effectiveChildId =
-    childRows.some((r) => r.child.id === selectedChildId)
-      ? selectedChildId
+  // 中ペイン有効選択: 現クラスにいない ID なら先頭にフォールバック（クラス変更時など）
+  const effectiveMidChildId =
+    childRows.some((r) => r.child.id === selectedMidChildId)
+      ? selectedMidChildId
       : (childRows[0]?.child.id ?? null);
 
-  // 右ペイン用のアクティブデータ
-  const activeRow = childRows.find((r) => r.child.id === effectiveChildId);
-  const activeHousehold = activeRow?.household ?? null;
-  const activeChild = activeRow?.child ?? null;
+  // 中ペイン選択行から世帯を確定（世帯は常に現クラスの選択から決まる）
+  const midRow = childRows.find((r) => r.child.id === effectiveMidChildId);
+  const activeHousehold = midRow?.household ?? null;
+
+  // 右ペイン表示児童: selectedDetailChildId が同世帯の児童なら優先する
+  // そうでなければ中ペイン選択にフォールバック（クラス・世帯が変わったとき）
+  const detailChildCandidate = data.children.find(
+    (c) => c.id === selectedDetailChildId,
+  );
+  const effectiveDetailChildId =
+    detailChildCandidate &&
+    detailChildCandidate.householdId === activeHousehold?.id
+      ? selectedDetailChildId
+      : effectiveMidChildId;
+
+  const activeChild =
+    data.children.find((c) => c.id === effectiveDetailChildId) ?? null;
 
   // 同世帯の全児童（右ペイン児童チップ用）
   const householdChildren = useMemo(
@@ -94,12 +109,22 @@ export function PtaWorkspace({ data }: PtaWorkspaceProps) {
     [data.children, activeHousehold],
   );
 
+  // クラス選択: 両選択をリセット（フォールバックに委ねる）
   const handleSelectClass = useCallback((classId: string) => {
     setSelectedClassId(classId);
+    setSelectedMidChildId(null);
+    setSelectedDetailChildId(null);
   }, []);
 
+  // 中ペイン児童クリック: 中ペイン・右ペイン詳細を両方更新
   const handleSelectChild = useCallback((childId: string) => {
-    setSelectedChildId(childId);
+    setSelectedMidChildId(childId);
+    setSelectedDetailChildId(childId);
+  }, []);
+
+  // 右ペイン兄弟チップクリック: 詳細表示のみ切替（中ペイン選択・世帯は変えない）
+  const handleDetailSelectChild = useCallback((childId: string) => {
+    setSelectedDetailChildId(childId);
   }, []);
 
   return (
@@ -123,24 +148,24 @@ export function PtaWorkspace({ data }: PtaWorkspaceProps) {
 
         {/* 中ペイン + 右ペインの横並び */}
         <div className="flex min-h-0 flex-1">
-          {/* 中ペイン: 児童一覧 */}
+          {/* 中ペイン: 児童一覧（クリックで中ペイン選択・右ペイン詳細を両方更新） */}
           <ChildListPane
             title={classTitle}
             rows={childRows}
             allChildren={data.children}
             displayFiscalYear={data.settings.displayFiscalYear}
-            selectedChildId={effectiveChildId}
+            selectedChildId={effectiveMidChildId}
             onSelectChild={handleSelectChild}
           />
 
-          {/* 右ペイン: 世帯詳細 */}
+          {/* 右ペイン: 世帯詳細（兄弟チップクリックは詳細表示のみ切替） */}
           <HouseholdDetailPane
             household={activeHousehold}
             selectedChild={activeChild}
             householdChildren={householdChildren}
             classById={classById}
             displayFiscalYear={data.settings.displayFiscalYear}
-            onSelectChild={handleSelectChild}
+            onSelectChild={handleDetailSelectChild}
           />
         </div>
       </SidebarInset>
