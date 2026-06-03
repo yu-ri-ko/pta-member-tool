@@ -1,4 +1,4 @@
-# PTA会員管理ツール — 企画・設計メモ
+﻿# PTA会員管理ツール — 企画・設計メモ
 
 > 採用管理ワークスペース（`workspace-ui-kit`）を参考に、PTA向け会員管理ツールを作るための記録。
 > グリル（要件深掘り）の合意内容をまとめたもの。**2026-05-25 時点（Q1〜Q31 反映）**。
@@ -331,11 +331,11 @@ docs/pta-plan.md と実装計画 plan.md を読んで開発再開して。
 | 3 | 3ペイン骨組み + GlobalHeader | 完了 | `PtaWorkspace.tsx`・`PtaGlobalHeader.tsx`・`ClassTreePane.tsx`・`ChildListPane.tsx`・`HouseholdDetailPane.tsx`・`app/pta/page.tsx`・`lib/badges.ts` 作成。`/pta` でモックデータ全表示 |
 | 4 | 左ペイン（学年・クラス + 特別学級） | 完了 | Step 3 で同時実装済み。ClassTreePane に Collapsible グループ・クラス選択 UI |
 | 5 | 中ペイン（児童一覧 + バッジ） | 完了 | Step 3 で同時実装済み。ChildListPane に五十音順・役員/非会員/兄弟バッジ |
-| 6 | 右ペイン（世帯詳細 2階建て + 編集 UI） | 未着手 | 骨組み表示は Step 3 で実装済み。インライン編集 UI が未実装 |
+| 6 | 右ペイン（世帯詳細 2階建て + 編集 UI） | 進行中 | 静的表示完了（免除理由 `exemptReason` 行を追加）。インライン編集 UI は未実装 |
 | 7 | 確認・lint/test・（任意）Vercel デプロイ | 未着手 | |
 
-**最終更新**: 2026-05-28
-**中断メモ**: **Step 6（右ペイン インライン編集 UI）から再開**。Step 3〜5 は Step 3 で同時実装済み。
+**最終更新**: 2026-06-03
+**中断メモ**: Step 6 静的表示完了。次は右ペインのインライン編集 UI（会員区分・役員免除・免除理由・役員経験・世帯メモ）の実装。
 
 **状態の書き方**: `未着手` / `進行中` / `完了`
 

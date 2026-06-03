@@ -138,19 +138,32 @@ export function HouseholdDetailPane({
 
               {/* 役員免除（会員のときだけ表示） */}
               {household.membershipStatus === "member" && (
-                <div className="flex items-center justify-between gap-2 px-4 py-2.5">
-                  <span className="text-xs text-muted-foreground">
-                    役員免除
-                  </span>
-                  {household.officerExempt ? (
-                    <Badge variant="secondary" size="xs">
-                      <ShieldOff className="size-3" aria-hidden />
-                      免除
-                    </Badge>
-                  ) : (
-                    <span className="text-xs text-foreground">なし</span>
+                <>
+                  <div className="flex items-center justify-between gap-2 px-4 py-2.5">
+                    <span className="text-xs text-muted-foreground">
+                      役員免除
+                    </span>
+                    {household.officerExempt ? (
+                      <Badge variant="secondary" size="xs">
+                        <ShieldOff className="size-3" aria-hidden />
+                        免除
+                      </Badge>
+                    ) : (
+                      <span className="text-xs text-foreground">なし</span>
+                    )}
+                  </div>
+                  {/* 免除理由（免除 ON かつ理由テキストあり のときだけ表示） */}
+                  {household.officerExempt && household.exemptReason && (
+                    <div className="flex items-start justify-between gap-2 px-4 py-2.5">
+                      <span className="shrink-0 text-xs text-muted-foreground">
+                        免除理由
+                      </span>
+                      <span className="min-w-0 text-right text-xs text-foreground">
+                        {household.exemptReason}
+                      </span>
+                    </div>
                   )}
-                </div>
+                </>
               )}
 
               {/* 現役員 */}
