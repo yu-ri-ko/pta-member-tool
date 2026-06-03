@@ -186,8 +186,9 @@ export function HouseholdDetailPane({
               <div className="rounded-lg bg-card px-4 py-3">
                 <div className="flex flex-col gap-2">
                   {/* テーブルヘッダー */}
-                  <div className="grid grid-cols-[4rem_1fr_1fr] text-xs font-medium text-muted-foreground">
+                  <div className="grid grid-cols-[4rem_4rem_1fr_1fr] text-xs font-medium text-muted-foreground">
                     <span>年度</span>
+                    <span>区分</span>
                     <span>役職</span>
                     <span>備考</span>
                   </div>
@@ -196,9 +197,10 @@ export function HouseholdDetailPane({
                   {household.officerHistory.map((row, i) => (
                     <div
                       key={i}
-                      className="grid grid-cols-[4rem_1fr_1fr] text-xs text-foreground"
+                      className="grid grid-cols-[4rem_4rem_1fr_1fr] text-xs text-foreground"
                     >
                       <span className="tabular-nums">{row.fiscalYear}年度</span>
+                      <span className="text-muted-foreground">{row.division}</span>
                       <span>{row.role}</span>
                       <span className="text-muted-foreground">{row.note}</span>
                     </div>

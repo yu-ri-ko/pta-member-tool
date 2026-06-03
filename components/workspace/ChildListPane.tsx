@@ -76,9 +76,16 @@ export function ChildListPane({
               );
               return (
                 <li key={child.id}>
-                  <button
-                    type="button"
+                  <div
+                    role="button"
+                    tabIndex={0}
                     onClick={() => onSelectChild(child.id)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        onSelectChild(child.id);
+                      }
+                    }}
                     className={cn(
                       "flex w-full items-center gap-2 rounded-md px-2.5 py-2 text-left transition-colors",
                       "outline-none focus-visible:ring-2 focus-visible:ring-ring/50",
@@ -101,7 +108,7 @@ export function ChildListPane({
                         selected={isSelected}
                       />
                     </span>
-                  </button>
+                  </div>
                 </li>
               );
             })}

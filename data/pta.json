@@ -260,6 +260,7 @@
       "officerHistory": [
         {
           "fiscalYear": 2025,
+          "division": "PTA",
           "role": "会計",
           "note": "今年度担当"
         }
@@ -272,7 +273,20 @@
       "membershipStatus": "member",
       "officerExempt": true,
       "exemptReason": "前年度本部役員のため",
-      "officerHistory": [],
+      "officerHistory": [
+        {
+          "fiscalYear": 2024,
+          "division": "PTA",
+          "role": "本部役員（副会長）",
+          "note": ""
+        },
+        {
+          "fiscalYear": 2022,
+          "division": "育成会",
+          "role": "地区会長",
+          "note": "2年間担当"
+        }
+      ],
       "householdMemo": ""
     },
     {

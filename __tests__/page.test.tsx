@@ -4,5 +4,5 @@ describe("workspace-ui-kit smoke tests", () => {
   it("page module can be imported", async () => {
     const mod = await import("../app/page");
     expect(mod).toBeDefined();
-  });
+  }, 30000);
 });

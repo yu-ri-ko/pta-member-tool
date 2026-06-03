@@ -54,9 +54,14 @@ export type SchoolClass = z.infer<typeof schoolClassSchema>;
 export const membershipStatusSchema = z.enum(["member", "non_member"]);
 export type MembershipStatus = z.infer<typeof membershipStatusSchema>;
 
-/** 役員経験の1行（年度・役職・備考） */
+/** 役員経験の区分（PTA または 育成会） */
+export const officerDivisionSchema = z.enum(["PTA", "育成会"]);
+export type OfficerDivision = z.infer<typeof officerDivisionSchema>;
+
+/** 役員経験の1行（年度・区分・役職・備考） */
 export const officerHistoryRowSchema = z.object({
   fiscalYear: z.number().int(),
+  division: officerDivisionSchema.default("PTA"),
   role: z.string(),
   note: z.string().default(""),
 });
