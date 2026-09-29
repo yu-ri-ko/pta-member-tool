@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PTA会員管理ツール — AI開発の舞台裏</title>
+  <style>
+    /* ── リセット＆ベース ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --c-bg:         #f8f7f4;
+      --c-surface:    #ffffff;
+      --c-border:     #e4e1d8;
+      --c-text:       #1a1a1a;
+      --c-muted:      #6b6861;
+      --c-accent:     #2563eb;   /* 青：タイトル・アクセント */
+      --c-solve:      #16a34a;   /* 緑：解決できること */
+      --c-solve-bg:   #f0fdf4;
+      --c-kufuu:      #7c3aed;   /* 紫：工夫 */
+      --c-kufuu-bg:   #f5f3ff;
+      --c-kusen:      #dc2626;   /* 赤：苦戦 */
+      --c-kusen-bg:   #fff1f2;
+      --radius:       16px;
+      --font:         'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--c-bg);
+      color: var(--c-text);
+      line-height: 1.7;
+      padding: 40px 20px 60px;
+    }
+
+    /* ── ラッパー ── */
+    .wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    /* ── ヘッダー ── */
+    .header {
+      background: var(--c-accent);
+      color: #fff;
+      border-radius: var(--radius);
+      padding: 36px 40px 32px;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::after {
+      content: "";
+      position: absolute;
+      right: -40px;
+      top: -40px;
+      width: 200px;
+      height: 200px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 50%;
+    }
+    .header-label {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      opacity: 0.75;
+      margin-bottom: 8px;
+    }
+    .header-title {
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 10px;
+    }
+    .header-sub {
+      font-size: 18px;
+      opacity: 0.85;
+      margin-bottom: 20px;
+    }
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .badge {
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: #fff;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    /* ── 2カラム（解決できること ＋ スクリーンショット） ── */
+    .row-2col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 680px) {
+      .row-2col { grid-template-columns: 1fr; }
+    }
+
+    /* ── カードベース ── */
+    .card {
+      background: var(--c-surface);
+      border: 1.5px solid var(--c-border);
+      border-radius: var(--radius);
+      padding: 28px 28px 24px;
+    }
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+    }
+    .section-heading {
+      font-size: 22px;
+      font-weight: 800;
+      margin-bottom: 18px;
+      line-height: 1.3;
+    }
+
+    /* ── 解決できること ── */
+    .solve-card {
+      background: var(--c-solve-bg);
+      border-color: #86efac;
+    }
+    .solve-label {
+      background: #dcfce7;
+      color: var(--c-solve);
+    }
+    .solve-heading { color: var(--c-solve); }
+
+    .solve-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .solve-list li {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .solve-list .icon {
+      flex-shrink: 0;
+      width: 28px;
+      height: 28px;
+      background: var(--c-solve);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      margin-top: 1px;
+    }
+    .solve-list strong {
+      display: block;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+    .solve-list span {
+      font-size: 14px;
+      color: var(--c-muted);
+    }
+
+    /* ── スクリーンショット枠 ── */
+    .screenshot-card {
+      display: flex;
+      flex-direction: column;
+    }
+    .screenshot-label {
+      background: #dbeafe;
+      color: var(--c-accent);
+    }
+    .screenshot-area {
+      flex: 1;
+      min-height: 260px;
+      border: 2px dashed #93c5fd;
+      border-radius: 12px;
+      background: #eff6ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 12px;
+      padding: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+    /* スクリーンショット差し替え用：img タグを入れたら自動でフィットする */
+    .screenshot-area img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .screenshot-placeholder-icon {
+      font-size: 40px;
+    }
+    .screenshot-placeholder-text {
+      font-size: 14px;
+      color: var(--c-accent);
+      font-weight: 700;
+    }
+    .screenshot-placeholder-sub {
+      font-size: 12px;
+      color: #60a5fa;
+    }
+    /* ── 3ペイン構成図（スクショ代替イメージ） ── */
+    .pane-diagram {
+      display: flex;
+      gap: 4px;
+      width: 100%;
+      margin-top: 8px;
+    }
+    .pane-col {
+      flex: 1;
+      background: #bfdbfe;
+      border-radius: 6px;
+      padding: 8px 6px;
+      font-size: 10px;
+      font-weight: 700;
+      color: #1d4ed8;
+      text-align: center;
+      min-height: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .pane-col:nth-child(1) { background: #bfdbfe; }
+    .pane-col:nth-child(2) { background: #c7d2fe; }
+    .pane-col:nth-child(3) { background: #ddd6fe; flex: 1.4; }
+    .pane-row { background: rgba(255,255,255,0.5); border-radius: 3px; padding: 3px 4px; font-size: 9px; }
+
+    /* ── 工夫・苦戦 共通 ── */
+    .section-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .section-title-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .section-title-row .emoji {
+      font-size: 32px;
+    }
+    .section-title-row h2 {
+      font-size: 24px;
+      font-weight: 800;
+    }
+    .cards-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 680px) {
+      .cards-row { grid-template-columns: 1fr; }
+    }
+
+    /* ── 工夫カード ── */
+    .kufuu-section .section-title-row h2 { color: var(--c-kufuu); }
+    .kufuu-card {
+      background: var(--c-kufuu-bg);
+      border: 1.5px solid #c4b5fd;
+      border-radius: var(--radius);
+      padding: 22px 20px;
+    }
+    .kufuu-card .card-number {
+      width: 32px;
+      height: 32px;
+      background: var(--c-kufuu);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+    .kufuu-card .card-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--c-kufuu);
+      margin-bottom: 8px;
+      line-height: 1.35;
+    }
+    .kufuu-card .card-body {
+      font-size: 14px;
+      line-height: 1.65;
+      color: #4c1d95;
+    }
+
+    /* ── 苦戦カード ── */
+    .kusen-section .section-title-row h2 { color: var(--c-kusen); }
+    .kusen-card {
+      background: var(--c-kusen-bg);
+      border: 1.5px solid #fca5a5;
+      border-radius: var(--radius);
+      padding: 22px 20px;
+    }
+    .kusen-card .card-icon {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .kusen-card .card-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--c-kusen);
+      margin-bottom: 8px;
+      line-height: 1.35;
+    }
+    .kusen-card .card-body {
+      font-size: 14px;
+      line-height: 1.65;
+      color: #7f1d1d;
+    }
+
+    /* ── フッター ── */
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: var(--c-muted);
+      padding-top: 8px;
+    }
+
+    /* ── 印刷対応 ── */
+    @media print {
+      body { background: #fff; padding: 0; }
+      .wrapper { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+
+    <!-- ──────────────── ヘッダー ──────────────── -->
+    <header class="header">
+      <p class="header-label">School Coursework / Portfolio</p>
+      <h1 class="header-title">📋 PTA会員管理ツール</h1>
+      <p class="header-sub">AIと一緒に作った小学校PTA向け会員・役員管理システム</p>
+      <div class="tech-stack">
+        <span class="badge">Next.js 16</span>
+        <span class="badge">React 19</span>
+        <span class="badge">TypeScript</span>
+        <span class="badge">shadcn/ui</span>
+        <span class="badge">Tailwind CSS v4</span>
+        <span class="badge">Cursor（AI支援）</span>
+        <span class="badge">Vercel デプロイ</span>
+      </div>
+    </header>
+
+    <!-- ──────────────── 解決できること ＋ スクリーンショット ──────────────── -->
+    <div class="row-2col">
+
+      <!-- 解決できること -->
+      <div class="card solve-card">
+        <span class="section-label solve-label">✅ このツールで解決できること</span>
+        <ul class="solve-list">
+          <li>
+            <div class="icon">👨‍👩‍👧</div>
+            <div>
+              <strong>世帯単位での管理</strong>
+              <span>兄弟が複数いても「保護者1人 = 1世帯」でまとめて管理。入力の重複がなくなる</span>
+            </div>
+          </li>
+          <li>
+            <div class="icon">🏅</div>
+            <div>
+              <strong>役員経験の一元記録</strong>
+              <span>PTA・育成会どちらの経験も同じ画面で確認・追記できる</span>
+            </div>
+          </li>
+          <li>
+            <div class="icon">🔔</div>
+            <div>
+              <strong>役員免除の自動判定（候補提示）</strong>
+              <span>「本部役員経験あり」など3条件を自動検出し、免除フラグをワンクリックでONに</span>
+            </div>
+          </li>
+          <li>
+            <div class="icon">🔍</div>
+            <div>
+              <strong>学年・クラスで素早く検索</strong>
+              <span>左ペインで学年・クラスを選ぶだけ。特別学級も独立グループで管理</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- スクリーンショット -->
+      <div class="card screenshot-card">
+        <span class="section-label screenshot-label">🖥 画面構成（3ペイン）</span>
+        <div class="screenshot-area">
+          <!--
+            ★ スクリーンショット差し替え方法 ★
+            下の img タグのコメントを外して、src="" に画像ファイルのパスを入れてください。
+            例: <img src="./screenshot.png" alt="PTA会員管理ツール 画面">
+          -->
+          <!-- <img src="" alt="PTA会員管理ツール 画面"> -->
+
+          <!-- スクリーンショット用プレースホルダー（差し替え前に表示） -->
+          <div style="width:100%">
+            <p class="screenshot-placeholder-text" style="margin-bottom:12px">📸 スクリーンショットをここに差し替え</p>
+            <!-- 3ペイン構成のイメージ図 -->
+            <div class="pane-diagram">
+              <div class="pane-col">
+                <div style="font-size:11px;margin-bottom:4px">左ペイン</div>
+                <div class="pane-row">▶ 1年</div>
+                <div class="pane-row">▼ 2年</div>
+                <div class="pane-row" style="padding-left:10px">　1組</div>
+                <div class="pane-row" style="padding-left:10px">　2組</div>
+                <div class="pane-row">▶ 特別学級</div>
+              </div>
+              <div class="pane-col">
+                <div style="font-size:11px;margin-bottom:4px">中ペイン</div>
+                <div class="pane-row">山田 太郎 🏅</div>
+                <div class="pane-row">佐藤 花子</div>
+                <div class="pane-row">田中 次郎 👥</div>
+                <div class="pane-row">鈴木 三郎 ⚪</div>
+              </div>
+              <div class="pane-col">
+                <div style="font-size:11px;margin-bottom:4px">右ペイン</div>
+                <div class="pane-row">保護者：田中 恵子</div>
+                <div class="pane-row" style="font-size:8px">次郎 4年2組 ／ 三郎 1年1組</div>
+                <div class="pane-row" style="font-size:8px">会員区分：● 会員</div>
+                <div class="pane-row" style="font-size:8px">役員免除：オフ</div>
+                <div class="pane-row" style="font-size:8px">役員経験：2023年 書記</div>
+              </div>
+            </div>
+            <p class="screenshot-placeholder-sub" style="margin-top:10px">img タグのコメントを外すと実際の画面に切り替わります</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ──────────────── 工夫したポイント ──────────────── -->
+    <div class="section-wrapper kufuu-section">
+      <div class="section-title-row">
+        <span class="emoji">✨</span>
+        <h2>工夫したポイント</h2>
+      </div>
+      <div class="cards-row">
+
+        <div class="kufuu-card">
+          <div class="card-number">1</div>
+          <p class="card-title">Cursorに回す前に<br>別AIで仕様を固める</p>
+          <p class="card-body">
+            Claude などでグリル（要件の深掘り）を行い、設計の迷いをゼロにしてからCursorエージェントに渡した。
+            曖昧なまま頼むと使用量が爆発するため、<strong>「詰めてから渡す」</strong>フローを確立。
+          </p>
+        </div>
+
+        <div class="kufuu-card">
+          <div class="card-number">2</div>
+          <p class="card-title">4つの修正を<br>1プロンプトにまとめて節約</p>
+          <p class="card-body">
+            細かい修正を1件ずつ頼むとトークンが積み重なる。
+            関連する変更をグループ化して<strong>1回のプロンプトで指示</strong>することで、
+            使用量を大幅に削減した。
+          </p>
+        </div>
+
+        <div class="kufuu-card">
+          <div class="card-number">3</div>
+          <p class="card-title">作業内容でモデルを<br>使い分ける</p>
+          <p class="card-body">
+            設計レビューは思考系モデル、コード生成はコスト優先モデルと、
+            <strong>タスクの種類によってエージェントモデルを切り替え</strong>。
+            品質とコストのバランスを取ることを意識した。
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ──────────────── 苦戦したポイント ──────────────── -->
+    <div class="section-wrapper kusen-section">
+      <div class="section-title-row">
+        <span class="emoji">😅</span>
+        <h2>苦戦したポイント</h2>
+      </div>
+      <div class="cards-row">
+
+        <div class="kusen-card">
+          <div class="card-icon">⚡</div>
+          <p class="card-title">使用量との戦い！<br>なぜこんなに減りが早いんだ…</p>
+          <p class="card-body">
+            エージェントが長いコンテキストを保ちながら動くため、
+            思ったより速くトークンが消費された。
+            「どこで使用量が増えているか」を把握することが
+            AI開発の最初の壁だと実感した。
+          </p>
+        </div>
+
+        <div class="kusen-card">
+          <div class="card-icon">👥</div>
+          <p class="card-title">双子の同クラスバグ・<br>保護者名がズレるバグ</p>
+          <p class="card-body">
+            双子が同じクラスに在籍するエッジケースで、
+            同一世帯の判定ロジックが誤作動。
+            また保護者名の表示が児童リストとズレる問題も発生し、
+            データ設計の正規化を見直すことになった。
+          </p>
+        </div>
+
+        <div class="kusen-card">
+          <div class="card-icon">📋</div>
+          <p class="card-title">仕様の詰め不足が<br>実装中に発覚</p>
+          <p class="card-body">
+            育成会の役員経験をどう扱うか、
+            免除条件の3ケースとは何かなど、
+            実装が進んでから「決めていなかった」部分が次々と浮上。
+            <strong>設計を先に詰める大切さ</strong>を身をもって学んだ。
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ──────────────── フッター ──────────────── -->
+    <footer class="footer">
+      <p>Next.js 16 + shadcn/ui + Cursor（AIエージェント）で開発 ／ Vercel にモックデプロイ済み</p>
+      <p style="margin-top:4px">2026年度 学校課題・ポートフォリオ</p>
+    </footer>
+
+  </div>
+</body>
+</html>

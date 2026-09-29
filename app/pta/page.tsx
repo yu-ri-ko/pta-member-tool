@@ -5,9 +5,15 @@
  * 出典: docs/pta-plan.md「今月のスコープ」「データ設計・補足ルール」
  */
 
+import type { Metadata } from "next";
 import ptaRawData from "@/data/pta.json";
 import { ptaDataSchema } from "@/lib/pta-schema";
 import { PtaWorkspace } from "@/components/workspace/PtaWorkspace";
+
+export const metadata: Metadata = {
+  title: "PTA役員管理ツール",
+  description: "小学校PTA向けの会員・役員管理（モックデモ）",
+};
 
 export default function PtaPage() {
   // Zod でランタイム検証（形式エラーはビルド/起動時に即気づける）
